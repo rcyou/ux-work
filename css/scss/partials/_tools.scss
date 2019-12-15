@@ -1,8 +1,11 @@
 #tools {
 	text-align: center;
-	padding: 6rem 0;
+	padding: 15rem 0;
 	max-width: 100rem;
 	margin: 0 auto;
+	color: $c_white;
+
+	h2 { margin-bottom: 6rem; }
 
 	ul {
 		list-style: none;
@@ -21,6 +24,10 @@
 
 		.software-icon {
 			margin-bottom: 1.5rem;
+			height: 6.5rem;
+			width: 6.5rem;
+			flex: 0 0 5rem;
+			filter: drop-shadow(0px 0px 10px $c_black);
 		}
 
 		h3 {

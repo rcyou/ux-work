@@ -10,7 +10,7 @@ body {
 	font-family: $f_system;
 	line-height: 1.625;
 	font-weight: $f_normal;
-	background-color: $c_white;
+	background-color: $c_black;
 	color: $c_black;
 
 	// smooths type in all browsers
@@ -39,7 +39,7 @@ h1 {
 
 h2 {
 	font-size: 2.8rem;
-	font-weight: $f_bold;
+	font-weight: $f_normal;
 	line-height: 1.125;
 }
 
