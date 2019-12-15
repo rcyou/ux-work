@@ -1,0 +1,29 @@
+#hero {
+	color: $c_white;
+	padding: 0 1.5rem 3rem 1.5rem;
+	height: 85vh;
+	width: 100%;
+	background-image: url(https://placekitten.com/2000/800);
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	flex-direction: column;
+}
+
+#intro-title {
+	font-size: 4rem;
+	line-height: 1.125;
+	width: 50%;
+	margin: auto 0 auto auto;
+}
+
+#disclaimer {
+	display: flex;
+	align-items: center;
+	max-width: 100rem;
+	margin: auto auto 0 auto;
+
+	#dribbble-symbol {
+		margin-right: 1rem;
+	}
+}

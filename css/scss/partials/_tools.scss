@@ -1,0 +1,30 @@
+#tools {
+	text-align: center;
+	padding: 6rem 0;
+	max-width: 100rem;
+	margin: 0 auto;
+
+	ul {
+		list-style: none;
+		margin: 3rem 0;
+		padding: 0;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+
+	li {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		.software-icon {
+			margin-bottom: 1.5rem;
+		}
+
+		h3 {
+			margin-bottom: 1rem;
+		}
+	}
+}

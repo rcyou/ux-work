@@ -1,0 +1,26 @@
+{
+  "name": "ux_portfolio",
+  "version": "1.0.0",
+  "description": "node files for ux portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rcyou/ux-work.git"
+  },
+  "author": "Ryan Young",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rcyou/ux-work/issues"
+  },
+  "homepage": "https://github.com/rcyou/ux-work#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-file-include": "^2.1.1",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.13.0"
+  }
+}

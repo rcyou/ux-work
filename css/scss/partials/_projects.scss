@@ -1,0 +1,31 @@
+#projects {
+	max-width: 100rem;
+	margin: 0 auto;
+	
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.project-card {
+		width: 50%;
+		background: $c_ltgrey;
+	}
+
+	.project-description {
+		padding: 1.5rem 2rem;
+	}
+
+	.project-thumbnail {
+		height: 0;
+		padding-top: 50%;
+		width: 100%;
+		background-image: url(https://placekitten.com/600/400);
+		background-size: cover;
+		background-position: center center;
+	}
+}
