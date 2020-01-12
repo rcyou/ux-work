@@ -13,8 +13,12 @@ header {
 #logo {
   color: $c_black;
   text-decoration: none;
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 1;
+
+  @media only screen and (min-width: $mq_medium) {
+    font-size: 3rem;
+  }
 
   span {
     line-height: 1;
@@ -26,9 +30,15 @@ header {
   display: inline-block;
   line-height: 1;
   vertical-align: middle;
-  height: 3.2rem;
-  width: 6.2rem;
-  margin-right: 2rem;
+  margin-right: 0.5rem;
+  height: 2.3rem;
+  width: 4rem;
+
+  @media only screen and (min-width: $mq_medium) {
+    height: 3.2rem;
+    width: 6.2rem;
+    margin-right: 2rem;
+  }
 }
 
 nav { line-height: 1; }

@@ -1,32 +1,138 @@
 #projects {
 	max-width: 100rem;
-	margin: -10rem auto 0 auto;
+	margin: -5rem auto 0 auto;
 	position: relative;
+	display: flex;
+	flex-direction: column-reverse;
+
+	@media only screen and (min-width: $mq_medium) {
+		margin: -15rem auto 0 auto;
+		flex-direction: column;
+	}
 	
 	ul {
 		list-style: none;
 		margin: 0;
 		padding: 0;
 		display: flex;
-		align-items: center;
+		flex-wrap: wrap;
 		justify-content: center;
+
+		&:before {
+			content: "Featured Projects & Case Studies";
+			display: block;
+			width: 100%;
+			text-align: center;
+			color: $c_white;
+			font-size: 2.6rem;
+			margin: 0.75rem auto 1.5rem auto;
+
+			@media only screen and (min-width: $mq_tween) {
+				margin: 0.75rem auto 3rem auto;
+			}
+		}
 	}
 
 	.project-card {
-		width: 50%;
+		width: 85%;
 		background: $c_ltgrey;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		margin: 1.5rem 0 0 0;
+
+		@media only screen and (min-width: $mq_tween) {
+
+			&:nth-last-child(2):first-child,
+			&:nth-last-child(2):first-child ~ *,
+			&:nth-last-child(4):first-child,
+			&:nth-last-child(4):first-child ~ * {
+			   width: calc(50% - 1.5rem);
+			   flex: 0 1 calc(50% - 1.5rem);
+			   margin: 0 0.75rem;
+			}
+
+			&:nth-last-child(4):first-child,
+			&:nth-last-child(4):first-child ~ * {
+				margin-bottom: 1.5rem;
+			}
+		}
+
+		@media only screen and (min-width: $mq_medium) {
+			&:nth-last-child(3):first-child,
+			&:nth-last-child(3):first-child ~ * {
+			   width: calc(33.333% - 1.5rem);
+			   flex: 0 1 calc(33.333% - 1.5rem);
+			   margin: 0 0.75rem;
+			}
+
+			&:nth-last-child(4):first-child,
+			&:nth-last-child(4):first-child ~ * {
+			   width: calc(25% - 1.5rem);
+			   flex: 0 1 calc(25% - 1.5rem);
+			   margin: 0 0.75rem;
+			}
+		}
 	}
 
 	.project-description {
 		padding: 1.5rem 2rem;
+
+		h2 {
+			font-size: 2.1rem;
+			font-weight: $f_bold;
+			margin-bottom: 0.75rem;
+		}
 	}
 
 	.project-thumbnail {
 		height: 0;
-		padding-top: 50%;
+		padding-top: 75%;
 		width: 100%;
-		background-image: url(https://placekitten.com/600/400);
+		background-image: url(https://placekitten.com/800/600);
 		background-size: cover;
 		background-position: center center;
+	}
+}
+
+#disclaimer {
+	color: $c_white;
+	display: flex;
+	align-items: flex-start;
+	margin: 3rem 1.5rem;
+	max-width: 100rem;
+	position: relative;
+	z-index: 1;
+	text-shadow: 0px 0px 5px rgba(0,0,0,0.75);
+
+	#dribbble-symbol {
+		margin: 0.5rem 1.5rem 0 0;
+		height: 2.8rem;
+		width: 2.8rem;
+		flex: 0 0 2.8rem;
+
+		@media only screen and (max-width: $mq_small) {
+			margin: 0 auto 2rem auto;
+			height: 4rem;
+			width: 4rem;
+			flex: 0 0 4rem;
+		}
+
+		@media only screen and (min-width: $mq_medium) {
+			height: 3.6rem;
+			width: 3.6rem;
+			flex: 0 0 3.6rem;
+			margin: 0 1.5rem 0 0;
+		}
+	}
+
+	@media only screen and (max-width: $mq_small) {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+
+	@media only screen and (min-width: $mq_medium) {
+		align-items: center;
 	}
 }
