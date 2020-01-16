@@ -10,7 +10,7 @@ body {
 	font-family: $f_system;
 	line-height: 1.625;
 	font-weight: $f_normal;
-	background-color: $c_black;
+	background-color: $c_white;
 	color: $c_black;
 
 	// smooths type in all browsers
@@ -98,16 +98,6 @@ p {
 ul, ol {
 	list-style-position: inside;
 	margin: 0 0 1.5rem 0;
-}
-
-#resume {
-	a {
-		color: $c_white;
-		font-size: 1.8rem;
-		text-align: center;
-		display: block;
-		padding: 3rem 0 4.5rem 0;
-	}
 }
 
 // selection color styling

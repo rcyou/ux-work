@@ -28,12 +28,12 @@
 		bottom: 4%;
 		left: 0;
 		width: 100%;
-		height: 45vh;
+		height: 40vh;
 		background: linear-gradient(to top, rgba($c_black,1) 5%, rgba($c_black,0.75) 35%, rgba($c_black,0));
 		z-index: 0;
 
 		@media only screen and (max-width: $mq_tween) {
-			height: 30vh;
+			height: 18vh;
 			bottom: 7%;
 		}
 

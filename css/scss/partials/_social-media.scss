@@ -1,37 +1,3 @@
-@-webkit-keyframes pulse {
-  from {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-  }
-
-  50% {
-    -webkit-transform: scale3d(2, 2, 2);
-    transform: scale3d(2, 2, 2);
-  }
-
-  to {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-  }
-}
-
-@keyframes pulse {
-  from {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-  }
-
-  50% {
-    -webkit-transform: scale3d(2, 2, 2);
-    transform: scale3d(2, 2, 2);
-  }
-
-  to {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-  }
-}
-
 #social {
 	display: block;
 	text-align: center;
@@ -45,10 +11,23 @@
 			background: white;
 		}
 
+		&.github {
+			fill: $c_white;
+
+			#resume & {
+				fill: $c_black;
+			}
+		}
+
 		&.codepen {
 			fill: $c_white;
 			stroke-width: 0.7;
 			stroke: $c_black;
+
+			#resume & {
+				fill: $c_black;
+				stroke: $c_white;
+			}
 		}
 
 		&.pinterest {
@@ -66,12 +45,10 @@
 
 	a {
 		display: block;
-		padding: 3rem 2rem;
+		padding: 6rem 1.5rem;
 
-		&:hover,
-		&:focus {
-			-webkit-animation-name: pulse;
-			animation-name: pulse;
+		@media only screen and (min-width: $mq_medium) {
+			padding: 3rem 2rem;
 		}
 	}
 }

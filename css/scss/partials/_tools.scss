@@ -1,12 +1,12 @@
 #tools {
 	text-align: center;
-	padding: 6rem 0;
+	padding: 6rem 0 0.75rem 0;
 	max-width: 100rem;
 	margin: 0 auto;
 	color: $c_white;
 
 	@media only screen and (min-width: $mq_medium) {
-		padding: 10rem 0;
+		padding: 10rem 0 1.5rem 0;
 	}
 
 	h2 { margin-bottom: 6rem; }
