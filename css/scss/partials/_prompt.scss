@@ -1,0 +1,76 @@
+.staticrypt-instructions {
+    margin: 3rem;
+
+    span {
+        height: 7rem;
+        width: 7rem;
+        display: inline-block;
+        border-radius: 100%;
+        padding: 2.125rem;
+        border: 2px solid $c_black;
+        opacity: .45;
+
+        svg { fill: $c_black; }
+    }
+}
+
+.staticrypt-form input {
+    outline: 0;
+    background: $c_white;
+    width: 100%;
+    border: 0;
+    border-radius: 3px;
+    padding: 15px;
+}
+
+.staticrypt-form .staticrypt-decrypt-button {
+    outline: 0;
+    background: #4CAF50;
+    width: 25%;
+    border: 0;
+    border-radius: 0;
+    margin-left: 1rem;
+    padding: 15px;
+    color: $c_white;
+    cursor: pointer;
+}
+
+.staticrypt-form .staticrypt-decrypt-button:hover,
+.staticrypt-form .staticrypt-decrypt-button:active,
+.staticrypt-form .staticrypt-decrypt-button:focus {
+    background: #43A047;
+}
+
+.staticrypt-html,
+.staticrypt-body {
+    height: 100%;
+    position: relative;
+}
+
+.staticrypt-body {
+    background: $c_super_ltgrey;
+    font-family: $f_system;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.staticrypt-page {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.staticrypt-form {
+    position: relative;
+    z-index: 1;
+    margin: auto;
+    text-align: center;
+}
+
+#staticrypt-form {
+    display: flex;
+    max-width: 32rem;
+    margin: auto;
+}
