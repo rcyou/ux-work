@@ -6,7 +6,7 @@ var gulp = require('gulp'),
 
 // -- Add HTML
 gulp.task('fileinclude', function() {
-  gulp.src(['tpls/*.html'])
+  gulp.src(['pages/*.html'])
     .pipe(fileinclude({
       prefix: '@@',
       basepath: '@file'
@@ -35,8 +35,9 @@ gulp.task('watch', ['sass','fileinclude'], function() {
 	// array inludes names of tasks to run when gulp sees a change
 	// if using partials, make sure the path is to those file, not parent .scss file
 	gulp.watch('css/scss/partials/*.scss', ['sass']);
+	gulp.watch('css/scss/*.scss', ['sass']);
 	gulp.watch('includes/*.html', ['fileinclude']);
-	gulp.watch('tpls/*.html', ['fileinclude']);
+	gulp.watch('pages/*.html', ['fileinclude']);
 });
 // 'gulp watch' will keep running after command is entered
 // to stop, type ctrl + c

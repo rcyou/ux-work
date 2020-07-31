@@ -1,10 +1,16 @@
 $f_system: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
+
+$f_mulish: 'Mulish', sans-serif;
+$f_oswald: 'Oswald', sans-serif;
+$f_mono: 'Roboto Mono', monospace;
+
 $c_white: #FFF;
-$c_black: #111;
-$c_grey: #757575;
+$c_black: #333;
+$c_bg: #FBFCF3;
+$c_grey: #7E7E7E;
 $c_ltgrey: #DDD;
-$c_super_ltgrey: #F2F2F2;
+$c_super_ltgrey: #E7E7E7;
 
 $c_red: #e01f3d;
 $c_teal: #0083a5;
@@ -13,8 +19,8 @@ $c_dribbble: #ea4c89;
 
 $f_light: 300;
 $f_normal: 400;
-$f_bold: 600;
-$f_bolder: 700;
+$f_medium: 500;
+$f_bold: 700;
 
 $mq_small: 500px;
 $mq_tween: 600px;

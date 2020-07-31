@@ -7,10 +7,10 @@ html {
 body {
 	min-height: 100%;
 	font-size: 1.6rem;
-	font-family: $f_system;
+	font-family: $f_mulish;
 	line-height: 1.625;
 	font-weight: $f_normal;
-	background-color: $c_black;
+	background-color: $c_bg;
 	color: $c_black;
 
 	// smooths type in all browsers
@@ -31,16 +31,16 @@ h4, h5, h6 {
 }
 
 h1 {
-	font-size: 4.2rem;
+	font-size: 3.6rem;
 	width: 100%;
 	line-height: 1.125;
-	margin-bottom: 1.5rem;
+	text-transform: uppercase;
 }
 
 h2 {
 	font-size: 2.8rem;
-	font-weight: $f_normal;
 	line-height: 1.125;
+	text-transform: uppercase;
 }
 
 h3 {
@@ -53,8 +53,77 @@ h4 { font-size: 2.5rem; }
 h5 { font-size: 2.1rem; }
 h6 { font-size: 1.8rem; }
 
+.eyebrow,
+figcaption,
+.mono {
+	font-family: $f_mono;
+	font-size: 1.4rem;
+	color: $c_grey;
+	display: block;
+}
+
+.eyebrow { margin-bottom: 1rem; }
+
+.subheader {
+	font-family: $f_oswald;
+	font-weight: $f_medium;
+	font-size: 2.6rem;
+	text-transform: uppercase;
+	
+	& + * { margin-top: 2rem; }
+
+	& + .mono { margin: 1rem 0 2rem 0; }
+
+	.emoji {
+		font-size: 2.4rem;
+	}
+
+}
+
+#lede h1,
+#resume h2:first-child,  {
+	font-family: $f_oswald;
+	font-weight: $f_light;
+	font-size: 3.6rem;
+	border-bottom: 3px solid $c_black;
+	padding-bottom: 2rem;
+}
+
 sup { vertical-align: super; }
 sub { vertical-align: sub; }
+
+sup, sub {
+	font-size: 1rem;
+	line-height: 1;
+}
+
+.emoji {
+	line-height: 1;
+	font-size: 3.6rem;
+	display: inline-block;
+
+	&.dribbble {
+		position: relative;
+		display: inline-block;
+		text-align: center;
+		margin-bottom: 2rem;
+
+		&:before {
+			content: "";
+		    display: block;
+		    height: 100%;
+		    width: 100%;
+		    background-color: #fcf3f8;
+		    position: absolute;
+		    mix-blend-mode: hue;
+		}
+	}
+}
+
+.material-icons {
+	vertical-align: top;
+	display: inline-block;
+}
 
 b, strong {
 	font-weight: bold;
@@ -76,9 +145,214 @@ footer {
 	margin: 0 auto;
 }
 
-header,
-footer {
-	padding: 1.5rem;
+header { padding: 1.5rem; }
+footer { padding: 8rem 1.5rem; }
+
+.go_back {
+	font-family: $f_mono;
+	display: inline-block;
+	line-height: 1;
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+	color: $c_grey;
+
+	.emoji {
+		margin: 0 auto 2rem auto;
+		display: block;
+		text-align: center;
+	}
+}
+
+#page {
+	padding: 0 1.5rem;
+}
+
+section,
+blockquote {
+	max-width: 64.5rem;
+	margin: 4rem auto 0 auto;
+
+	// #assorted &:not(#lede) { margin-top: 12rem; }
+
+	h2 {
+		margin-top: 4rem;
+		&:first-of-type { margin-top: 0.5rem; }
+	}
+}
+
+blockquote {
+	font-family: $f_mulish;
+	font-weight: $f_light;
+	font-size: 2.1rem;
+	padding: 3rem 0;
+	border-top: 1px solid $c_black;
+	border-bottom: 1px solid $c_black;
+
+	cite {
+		display: block;
+		margin-top: 1rem;
+		text-align: right;
+	}
+}
+
+figure, video {
+	display: block;
+	margin: 4rem auto 0 auto;
+	width: 100%;
+
+	figcaption {
+		text-align: center;
+		margin-top: 2rem;
+	}
+
+	& + .eyebrow {
+		text-align: center;
+		display: block;
+		margin-top: 2rem;
+	}
+
+	img {
+		width: auto;
+		max-width: 100%;
+		margin: 0 auto;
+
+		&.darken { mix-blend-mode: darken; }
+		&.border { border: 1px solid $c_super_ltgrey; }
+	}
+
+	&.large { max-width: 100rem; }
+	&.med { max-width: 83rem; }
+	&.small { max-width: 48rem; }
+
+	&.double-img {
+
+		> *:first-child { margin: 0 auto 2rem auto; }
+		> *:last-child { margin: 0 auto; }
+
+		@media only screen and (min-width: $mq_medium) {
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+
+			&.cards { align-items: stretch; }
+
+			> * {
+				flex: 0 1 49%;
+				width: 49%;
+		
+				&:first-child { margin: 0 1% 0 0; }
+				&:last-child { margin-left: 1%; }
+
+			}
+
+			figcaption { 
+				flex: 1 1 100%;
+			}
+		}
+	}
+
+	&.three-imgs {
+		> *:first-child,
+		> *:nth-child(2) { margin: 0 auto 2rem auto; }
+		> *:last-child { margin: 0 auto; }
+
+		@media only screen and (min-width: $mq_tween) {
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+
+			&.cards { align-items: stretch; }
+
+			> * {
+				flex: 0 1 32.33%;
+				width: 32.33%;
+		
+				&:first-child { margin: 0 1% 0 0; }
+				&:nth-child(2) { margin: 0 0.5%; }
+
+				&:last-child { margin: 0 0 0 1%; }
+
+			}
+
+			figcaption { 
+				flex: 1 1 100%;
+			}
+		}
+	}
+
+	&.stacked-imgs {
+		img:first-of-type { margin: 0 auto 2rem auto; }
+		img:last-of-type { margin: 0 auto; }
+	}
+}
+
+.round-card {
+	background: $c_white;
+	border-radius: 1.5rem;
+	border: 1px solid $c_super_ltgrey;
+	padding: 3rem;
+}
+
+.terminal {
+	background: $c_black;
+	color: $c_white;
+	font-family: $f_mono;
+	max-width: 100rem;
+	padding: 3rem;
+
+	& * {
+		max-width: 64.5rem;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	ul {
+		line-height: 1.25;
+		list-style-position: inside;
+
+		li {
+			display: flex;
+			margin-top: 1rem;
+		}
+
+		li:before {
+			content: "+";
+			display: inline-block;
+			margin-right: 2rem;
+		}
+
+		&.qa-list {
+			li:nth-child(odd):before { content: "Q:"; }
+			li:nth-child(even):before { content: "A:"; }
+		}
+
+		&.no-list {
+			li:before {
+				content: "";
+				margin-right: 0;
+			}
+		}
+	}
+}
+
+ol {
+  list-style: none;
+  display: block;
+  counter-reset: my-awesome-counter;
+}
+ol li {
+  counter-increment: my-awesome-counter;
+  display: flex;
+  margin-top: 3rem;
+}
+ol li:before {
+  content: counter(my-awesome-counter);
+  color: $c_black;
+  font-family: $f_oswald;
+  font-weight: $f_medium;
+  font-size: 2.1rem;
+  margin-right: 2rem;
 }
 
 svg {
@@ -90,14 +364,59 @@ svg {
 }
 
 p {
-	margin: 0 0 1.5rem 0;
-
-	+ p { margin: 1.5rem 0; }
+	margin: 2rem 0 0 0;
 }
 
 ul, ol {
 	list-style-position: inside;
-	margin: 0 0 1.5rem 0;
+	margin: 2rem 0;
+
+	.eyebrow + & { margin: 0; }
+
+	&.callout-list {
+		list-style: none;
+
+		li {
+			display: flex;
+			margin-top: 3rem;
+
+			&:before {
+				content: attr(data-content);
+				color: $c_black;
+				font-family: $f_oswald;
+				font-weight: $f_medium;
+				font-size: 2.1rem;
+				margin-right: 2rem;
+				width: 4rem;
+				flex: 0 0 4rem;
+			}
+		}
+
+		&.emoji-list {
+			li {
+				align-items: center;
+				
+				&:before {
+					content: attr(data-content);
+					color: $c_black;
+					font-family: $f_oswald;
+					font-weight: $f_medium;
+					line-height: 1;
+					font-size: 4rem;
+					margin-right: 2rem;
+					width: 4rem;
+					flex: 0 0 4rem;
+				}
+			}
+		}
+	}
+}
+
+.summary {
+	display: inline-block;
+	margin-bottom: 2rem;
+
+	&:only-child { margin-bottom: 0; }
 }
 
 #resume {
@@ -109,6 +428,7 @@ ul, ol {
 		padding: 3rem 0 4.5rem 0;
 	}
 }
+
 
 // selection color styling
 ::-moz-selection {
