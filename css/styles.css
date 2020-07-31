@@ -604,24 +604,24 @@ h1 {
             flex-direction: column;
     -webkit-box-align: center;
             align-items: center;
-    max-width: 10rem;
+    max-width: 8rem;
     -webkit-box-flex: 1;
-            flex: 1 1 10rem; }
+            flex: 1 1 8rem; }
     @media only screen and (max-width: 800px) {
       #tools li {
         margin-bottom: 3rem; } }
     #tools li .software-icon {
       margin-bottom: 0.5rem;
-      height: 4rem;
-      width: 4rem;
+      height: 3.6rem;
+      width: 3.6rem;
       -webkit-box-flex: 0;
-              flex: 0 0 4rem; }
+              flex: 0 0 3.6rem; }
       @media only screen and (min-width: 600px) {
         #tools li .software-icon {
-          height: 6rem;
-          width: 6rem;
+          height: 5rem;
+          width: 5rem;
           -webkit-box-flex: 0;
-                  flex: 0 0 6rem; } }
+                  flex: 0 0 5rem; } }
 
 #social {
   display: block;

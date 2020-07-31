@@ -21,8 +21,8 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		max-width: 10rem;
-		flex: 1 1 10rem;
+		max-width: 8rem;
+		flex: 1 1 8rem;
 
 		@media only screen and (max-width: $mq_medium) {
 			margin-bottom: 3rem;
@@ -31,14 +31,14 @@
 
 		.software-icon {
 			margin-bottom: 0.5rem;
-			height: 4rem;
-			width: 4rem;
-			flex: 0 0 4rem;
+			height: 3.6rem;
+			width: 3.6rem;
+			flex: 0 0 3.6rem;
 
 			@media only screen and (min-width: $mq_tween) {
-				height: 6rem;
-				width: 6rem;
-				flex: 0 0 6rem;
+				height: 5rem;
+				width: 5rem;
+				flex: 0 0 5rem;
 			}
 		}
 	}
