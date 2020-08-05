@@ -447,17 +447,26 @@ input[type="reset"] {
   color: #FFF; }
 
 .staticrypt-instructions {
-  margin: 3rem; }
+  margin: 3rem;
+  font-size: 1.8rem; }
   .staticrypt-instructions span {
     height: 7rem;
     width: 7rem;
+    position: relative;
     display: inline-block;
     border-radius: 100%;
     padding: 2.125rem;
     border: 2px solid #333;
     opacity: .45; }
     .staticrypt-instructions span svg {
-      fill: #333; }
+      fill: #333;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      height: 2.4rem;
+      width: 2.4rem;
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%); }
 
 .staticrypt-form input {
   outline: 0;
@@ -465,16 +474,18 @@ input[type="reset"] {
   width: 100%;
   border: 0;
   border-radius: 3px;
-  padding: 15px; }
+  padding: 15px;
+  font-size: 1.6rem; }
 
 .staticrypt-form .staticrypt-decrypt-button {
   outline: 0;
   background: #4CAF50;
+  font-size: 1.6rem;
   width: 25%;
   border: 0;
   border-radius: 0;
   margin-left: 1rem;
-  padding: 15px;
+  padding: 1.5rem;
   color: #FFF;
   cursor: pointer; }
 
@@ -511,7 +522,7 @@ input[type="reset"] {
 #staticrypt-form {
   display: -webkit-box;
   display: flex;
-  max-width: 32rem;
+  max-width: 40rem;
   margin: auto; }
 
 header {
