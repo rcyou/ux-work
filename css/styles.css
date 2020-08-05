@@ -427,6 +427,13 @@ ul, ol {
   display: block;
   padding: 3rem 0 4.5rem 0; }
 
+button,
+input[type="submit"],
+input[type="reset"] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none; }
+
 ::-moz-selection {
   background: #2db59e;
   color: #FFF; }

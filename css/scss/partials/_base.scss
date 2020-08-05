@@ -429,6 +429,12 @@ ul, ol {
 	}
 }
 
+button,
+input[type="submit"],
+input[type="reset"] {
+	appearance: none;
+}
+
 
 // selection color styling
 ::-moz-selection {
