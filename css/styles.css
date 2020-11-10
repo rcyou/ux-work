@@ -209,7 +209,7 @@ footer {
 
 section,
 blockquote {
-  max-width: 64.5rem;
+  max-width: 70rem;
   margin: 4rem auto 0 auto; }
   section h2,
   blockquote h2 {
@@ -327,7 +327,7 @@ figure, video {
   max-width: 100rem;
   padding: 3rem; }
   .terminal * {
-    max-width: 64.5rem;
+    max-width: 70rem;
     margin-left: auto;
     margin-right: auto; }
   .terminal ul {
@@ -500,7 +500,7 @@ h1 {
 #hero {
   font-size: 2.4rem;
   font-weight: 300;
-  max-width: 60rem;
+  max-width: 75rem;
   margin: 5rem auto;
   display: block; }
 
@@ -536,7 +536,7 @@ h1 {
         -webkit-box-align: center;
                 align-items: center; }
   #projects .project-card {
-    width: 66rem;
+    width: 70rem;
     max-width: 100%;
     display: -webkit-box;
     display: flex;
