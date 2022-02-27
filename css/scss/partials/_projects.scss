@@ -42,6 +42,8 @@
 			position: relative;
 		}
 
+		img { width: 100% }
+
 		&[aria-hidden="true"] {
 			opacity: 0;
 			visibility: hidden;
