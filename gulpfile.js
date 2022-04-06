@@ -14,6 +14,16 @@ gulp.task('fileinclude', function() {
     .pipe(gulp.dest(''));
 });
 
+// -- Add Blog Posts
+gulp.task('bloginclude', function() {
+  gulp.src(['drafts/*.html'])
+    .pipe(fileinclude({
+      prefix: '@@',
+      basepath: '@file'
+    }))
+    .pipe(gulp.dest('posts/'));
+});
+
 // -- SASS
 gulp.task('sass', function() {
 	gulp.src('css/scss/*.scss')
@@ -29,7 +39,7 @@ gulp.task('sass', function() {
 // -- WATCH
 // the array is a list of tasks that should be done before 'watch' task
 // array order is not important
-gulp.task('watch', ['sass','fileinclude'], function() {
+gulp.task('watch', ['sass','fileinclude','bloginclude'], function() {
 	// watch is a built in method for gulp
 	// pass in params for files to watch in a directory
 	// array inludes names of tasks to run when gulp sees a change
@@ -38,6 +48,8 @@ gulp.task('watch', ['sass','fileinclude'], function() {
 	gulp.watch('css/scss/*.scss', ['sass']);
 	gulp.watch('includes/*.html', ['fileinclude']);
 	gulp.watch('pages/*.html', ['fileinclude']);
+	gulp.watch('includes/drafts/*.html', ['bloginclude']);
+	gulp.watch('drafts/*.html', ['bloginclude']);
 });
 // 'gulp watch' will keep running after command is entered
 // to stop, type ctrl + c
