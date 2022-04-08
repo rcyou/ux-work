@@ -725,6 +725,9 @@ h1 {
               flex-direction: column;
       padding: 4rem 0; }
 
+h2 + h3 {
+  margin-top: 2rem; }
+
 #tools {
   text-align: center;
   max-width: 64.5rem;
