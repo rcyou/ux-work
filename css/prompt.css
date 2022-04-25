@@ -393,8 +393,12 @@ p {
   margin: 2rem 0 0 0; }
 
 ul, ol {
-  list-style-position: inside;
-  margin: 2rem 0; }
+  list-style-position: outside;
+  margin: 2rem 0rem 2rem 1.6rem; }
+  ul li, ol li {
+    margin-bottom: 2rem; }
+    ul li:last-child, ol li:last-child {
+      margin-bottom: 0; }
   .eyebrow + ul, .eyebrow + ol {
     margin: 0; }
   ul.callout-list, ol.callout-list {

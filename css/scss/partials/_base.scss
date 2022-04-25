@@ -386,8 +386,14 @@ p {
 }
 
 ul, ol {
-	list-style-position: inside;
-	margin: 2rem 0;
+	list-style-position: outside;
+	margin: 2rem 0rem 2rem 1.6rem;
+
+	li {
+		margin-bottom: 2rem;
+
+		&:last-child { margin-bottom: 0; }
+	}
 
 	.eyebrow + & { margin: 0; }
 
