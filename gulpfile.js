@@ -6,7 +6,7 @@ var gulp = require('gulp'),
 
 // -- Add HTML
 gulp.task('fileinclude', function() {
-  gulp.src(['pages/*.html','encrypt/bore/*.html'])
+  gulp.src(['pages/*.html','encrypt/bore/*.html','encrypt/global-nav/*.html'])
     .pipe(fileinclude({
       prefix: '@@',
       basepath: '@file'

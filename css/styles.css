@@ -137,7 +137,9 @@ figcaption,
   .subheader + .mono {
     margin: 1rem 0 2rem 0; }
   .subheader .emoji {
-    font-size: 2.4rem; }
+    font-size: 2.4rem;
+    line-height: 1;
+    vertical-align: text-top; }
 
 #lede h1,
 #resume h2:first-child {
