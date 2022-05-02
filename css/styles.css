@@ -339,6 +339,9 @@ figure, video {
   border: 1px solid #E7E7E7;
   padding: 3rem; }
 
+.rounded {
+  border-radius: 1.5rem; }
+
 .terminal {
   background: #333;
   color: #FFF;
