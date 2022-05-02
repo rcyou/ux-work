@@ -137,7 +137,9 @@ figcaption,
   .subheader + .mono {
     margin: 1rem 0 2rem 0; }
   .subheader .emoji {
-    font-size: 2.4rem; }
+    font-size: 2.4rem;
+    line-height: 1;
+    vertical-align: text-top; }
 
 #lede h1,
 #resume h2:first-child {
@@ -269,6 +271,9 @@ figure, video {
     max-width: 83rem; }
   figure.small, video.small {
     max-width: 48rem; }
+  figure.has-dropshadow img, video.has-dropshadow img {
+    -webkit-filter: drop-shadow(0px 2px 3px lightgray);
+            filter: drop-shadow(0px 2px 3px lightgray); }
   figure.double-img > *:first-child, video.double-img > *:first-child {
     margin: 0 auto 2rem auto; }
   figure.double-img > *:last-child, video.double-img > *:last-child {
@@ -333,6 +338,9 @@ figure, video {
   border-radius: 1.5rem;
   border: 1px solid #E7E7E7;
   padding: 3rem; }
+
+.rounded {
+  border-radius: 1.5rem; }
 
 .terminal {
   background: #333;
