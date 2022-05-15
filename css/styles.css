@@ -340,7 +340,10 @@ figure, video {
   padding: 3rem; }
 
 .rounded {
-  border-radius: 1.5rem; }
+  border-radius: 0.4rem; }
+  @media only screen and (min-width: 800px) {
+    .rounded {
+      border-radius: 0.8rem; } }
 
 .terminal {
   background: #333;

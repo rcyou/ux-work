@@ -317,7 +317,10 @@ figure, video {
 }
 
 .rounded {
-	border-radius: 1.5rem;
+	border-radius: 0.4rem;
+	@media only screen and (min-width: $mq_medium) {
+		border-radius: 0.8rem;
+	}
 }
 
 .terminal {
