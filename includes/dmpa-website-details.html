@@ -7,7 +7,7 @@
     </div>
     <div>
         <span class="eyebrow">Role & Activities</span>
-        <span>Wireframing, Visual/UI Design, Interaction Design, Prototyping, Front End Development</span>
+        <span><a href="#ooux">OOUX</a>, <a href="#wireframing">Wireframing</a>, <a href="#ui-design">Visual/UI Design</a>, <a href="#interaction-design">Interaction Design</a>, Prototyping, <a href="#front-end">Front End Development</a></span>
         <span class="eyebrow">Agency</span>
         <span>Visionary Services</span>
     </div>
@@ -37,7 +37,7 @@
 </figure>
 <section>
     <span class="eyebrow">Process</span>
-    <h2 class="subheader">Seeing the Forest for the trees</h2>
+    <h2 id="ooux" class="subheader">Seeing the Forest for the trees</h2>
     <p>During stakeholder interviews, I learned that an event is not always defined as a live performance. The organization operates more than the Civic Center, which hosts all the Broadway shows. And thanks in large to a new multifunctional outdoor community space, not all events are ticketed.</p>
     <p>I worked with the client team to identify attributes shared by all the event types and explored what distinguished one type from another. This helped uncover another finding: Within the organization, events have different stages, such as unannounced, published but tickets unavailable, and ticket sales open to the public.</p>
     <p>This got me thinking about an tackling the redesign from an Object-Oriented UX approach, which approaches content as a system of interrelated building blocks. Events play a large role in the DMPA ecosystem, serving as the primary content for most areas of the site. They are a natural hub for finding information about the venue, becoming a season ticket holder, and discovering related events.</p>
@@ -47,7 +47,7 @@
     </blockquote>
 </section>
 <section>
-    <h2 class="subheader">The content creator as a primary user</h2>
+    <h2 id="wireframing" class="subheader">The content creator as a primary user</h2>
     <p>Wireframing these content objects brought to light many business requirements influencing how an event might be displayed to the public. Getting something out earlier with just a bit of information had more value than waiting until all details are perfected and finalized.</p> 
     <p>This understanding helped stakeholders agree early on about what was needed when creating and managing events internally, and guided our development team in identifying which pieces of content were reusable or made up of other components.</p>
 </section>
@@ -55,7 +55,7 @@
     <img class="darken" src="images/dmpa/color-coded-wireframes.jpg" alt="grayscale wireframes showing how information on the venue, series, and event pages are connected">
 </figure>
 <section>
-    <h2 class="subheader">Look and Feel</h2>
+    <h2 id="ui-design" class="subheader">Look and Feel</h2>
     <p>Crafting the new look was an iterative process. Each version I presented to stakeholders consisted of 3 desktop mockups and a mobile version of one of the desktop pages.</p>
     <p>Because the updated content management system would allow DMPA staff to customize pages in any number of ways, the mission was to represent key components and illustrate how the design would feel consistant.</p>
     <p>While some pages, like performance details, had a certain default structure, the modules used to build the template could be repeated elsewhere if desired.</p>
@@ -65,7 +65,7 @@
     <img src="images/dmpa/dmpa-cowels-event.jpg" alt="mockup of information for an outdoor summer event">
 </figure>
 <section>
-    <h2 class="subheader">The Building Blocks</h2>
+    <h2 id="front-end" class="subheader">The Building Blocks</h2>
     <p>Once DMPA approved the overall look and feel, it was time to disscet the mockups into reusable UI modules. This involved extrapolating the design for components that weren’t represented in the mockups, as well as rendering the more complex components at various grid widths to ensure content would fit and maintain readablity.</p>
     <p>A few components required different styling when smaller and viewed on a mobile device because it lacked the necessary affordances. While mockups were made to help stakeholders visualize what they would look like in a static formay, I went a step further and coded the experience on CodePen to provide a realistic representation of the direction for the design. </p>
 </section>
@@ -81,7 +81,7 @@
     </div>
 </figure>
 <section>
-    <h2 class="subheader">The Mobile Experience</h2>
+    <h2 id="interaction-design" class="subheader">The Mobile Experience</h2>
     <p>One of the beauties of taking a modular, Object-Oriented approach is the emphasis on prioritized content, which is also key when designing mobile first. Demonstrating to stakeholders how these interconnected components could operate more or less like Lego<sup>®</sup> blocks made it easier to keep the desktop and mobile in perspective at once.</p>
     <p>On some static, informational landing pages, a sidebar for related content helped users explore deeper. However, the layout stacking order meant the links would be eventually burried on mobile screens. To maintain visibility, we turn this into a collapsed menu fixed to the bottom of the screen. </p>
 </section>
