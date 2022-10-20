@@ -121,7 +121,7 @@ figcaption,
 .mono {
   font-family: "Roboto Mono", monospace;
   font-size: 1.4rem;
-  color: #777;
+  color: #707070;
   display: block; }
 
 .eyebrow {
@@ -212,7 +212,7 @@ footer {
   width: 100%;
   text-align: center;
   text-decoration: none;
-  color: #777; }
+  color: #707070; }
   .go_back .emoji {
     margin: 0 auto 2rem auto;
     display: block;
@@ -570,7 +570,7 @@ header {
   display: inline-block;
   text-decoration: none;
   text-align: center;
-  color: #777;
+  color: #707070;
   font-family: "Roboto Mono", monospace;
   width: 100%;
   padding: 1rem 0;
@@ -618,7 +618,7 @@ h1 {
       text-align: center; }
       #projects ul li:last-child a {
         text-decoration: none;
-        color: #777;
+        color: #707070;
         font-family: "Roboto Mono", monospace;
         display: -webkit-box;
         display: flex;

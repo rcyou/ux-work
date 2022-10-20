@@ -255,7 +255,7 @@ header {
   display: inline-block;
   text-decoration: none;
   text-align: center;
-  color: #777;
+  color: #707070;
   font-family: "Roboto Mono", monospace;
   width: 100%;
   padding: 1rem 0;
@@ -398,7 +398,7 @@ p {
 address,
 .company_phone,
 .date_timespan {
-  color: #777;
+  color: #707070;
   margin: 0;
   font-style: normal;
   font-size: 1.6rem; }
@@ -422,7 +422,7 @@ address,
 
 .subtext {
   display: block;
-  color: #777;
+  color: #707070;
   margin: 0;
   font-style: normal;
   font-size: 1.4rem; }
