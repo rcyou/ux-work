@@ -782,7 +782,10 @@ h2 + h3 {
             align-items: center;
     max-width: 8rem;
     -webkit-box-flex: 1;
-            flex: 1 1 8rem; }
+            flex: 1 1 8rem;
+    margin-bottom: 0; }
+    #tools li:last-child {
+      margin-bottom: 0; }
     @media only screen and (max-width: 800px) {
       #tools li {
         margin-bottom: 3rem; } }

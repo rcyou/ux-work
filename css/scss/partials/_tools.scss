@@ -23,6 +23,9 @@
 		align-items: center;
 		max-width: 8rem;
 		flex: 1 1 8rem;
+		margin-bottom: 0;
+
+		&:last-child { margin-bottom: 0;}
 
 		@media only screen and (max-width: $mq_medium) {
 			margin-bottom: 3rem;
