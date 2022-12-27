@@ -788,7 +788,9 @@ h2 + h3 {
       margin-bottom: 0; }
     @media only screen and (max-width: 800px) {
       #tools li {
-        margin-bottom: 3rem; } }
+        margin-bottom: 3rem; }
+        #tools li:last-child {
+          margin-bottom: 0; } }
     #tools li .software-icon {
       margin-bottom: 0.5rem;
       height: 3.6rem;
