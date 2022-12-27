@@ -790,7 +790,7 @@ h2 + h3 {
       #tools li {
         margin-bottom: 3rem; }
         #tools li:last-child {
-          margin-bottom: 0; } }
+          margin-bottom: 3rem; } }
     #tools li .software-icon {
       margin-bottom: 0.5rem;
       height: 3.6rem;
