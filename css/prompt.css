@@ -463,6 +463,11 @@ input[type="reset"] {
      -moz-appearance: none;
           appearance: none; }
 
+*[data-hidden="hidden"] {
+  display: none;
+  visibility: hidden;
+  opacity: 0; }
+
 ::-moz-selection {
   background: #2db59e;
   color: #FFF; }

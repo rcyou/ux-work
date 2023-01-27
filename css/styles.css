@@ -463,6 +463,11 @@ input[type="reset"] {
      -moz-appearance: none;
           appearance: none; }
 
+*[data-hidden="hidden"] {
+  display: none;
+  visibility: hidden;
+  opacity: 0; }
+
 ::-moz-selection {
   background: #2db59e;
   color: #FFF; }
@@ -686,7 +691,8 @@ h1 {
 #lede {
   display: -webkit-box;
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  margin-bottom: 6rem; }
   #lede h1 {
     -webkit-box-flex: 1;
             flex: 1 1 100%; }

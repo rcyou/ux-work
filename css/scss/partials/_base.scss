@@ -470,6 +470,11 @@ input[type="reset"] {
 	appearance: none;
 }
 
+*[data-hidden="hidden"] {
+	display: none;
+	visibility: hidden;
+	opacity: 0;
+}
 
 // selection color styling
 ::-moz-selection {
