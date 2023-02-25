@@ -120,6 +120,7 @@ h6 {
 figcaption,
 .mono {
   font-family: "Roboto Mono", monospace;
+  font-weight: 400;
   font-size: 1.4rem;
   color: #707070;
   display: block; }
@@ -641,6 +642,8 @@ h1 {
                 flex-direction: column;
         -webkit-box-align: center;
                 align-items: center; }
+        #projects ul li:last-child a .eyebrow {
+          font-weight: 400; }
   #projects .project-card {
     width: 70rem;
     max-width: 100%;

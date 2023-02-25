@@ -23,6 +23,10 @@
 				display: flex;
 				flex-direction: column;
 				align-items: center;
+
+				.eyebrow {
+					font-weight: $f_normal;
+				}
 			}
 		}
 	}
