@@ -161,16 +161,11 @@ ul, ol {
   color: #FFF; }
 
 header {
-  display: -webkit-box;
   display: flex;
   width: 100%;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-          flex-direction: column;
-  -webkit-box-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 1rem 0 0 0;
   text-align: center; }
   header#inner_header {
@@ -195,7 +190,6 @@ header {
   margin-bottom: 2rem;
   list-style: none;
   width: 100%;
-  display: -webkit-box;
   display: flex;
   text-align: center;
   justify-content: space-around; }
@@ -208,20 +202,16 @@ header {
     display: inline-block;
     font-size: 1.2rem;
     padding: 2rem 1rem;
-    -webkit-text-decoration-color: transparent;
-            text-decoration-color: transparent;
-    -webkit-text-decoration-style: solid;
-            text-decoration-style: solid;
+    text-decoration-color: transparent;
+    text-decoration-style: solid;
     text-underline-offset: 5px;
     font-weight: 800;
     text-decoration-thickness: 2px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    -webkit-transition: all 100ms ease-in-out;
     transition: all 100ms ease-in-out; }
     #site_menu a:hover, #site_menu a:focus {
-      -webkit-text-decoration-color: inherit;
-              text-decoration-color: inherit; }
+      text-decoration-color: inherit; }
     #site_menu a .emoji {
       font-size: 1.8rem;
       vertical-align: bottom;
@@ -229,24 +219,18 @@ header {
 
 #projects_page #site_menu #projects_link {
   color: #333;
-  -webkit-text-decoration-style: solid;
-          text-decoration-style: solid;
-  -webkit-text-decoration-color: inherit;
-          text-decoration-color: inherit; }
+  text-decoration-style: solid;
+  text-decoration-color: inherit; }
 
 #about_page #site_menu #about_link {
   color: #333;
-  -webkit-text-decoration-style: solid;
-          text-decoration-style: solid;
-  -webkit-text-decoration-color: inherit;
-          text-decoration-color: inherit; }
+  text-decoration-style: solid;
+  text-decoration-color: inherit; }
 
 #blog_page #site_menu #blog_link {
   color: #333;
-  -webkit-text-decoration-style: solid;
-          text-decoration-style: solid;
-  -webkit-text-decoration-color: inherit;
-          text-decoration-color: inherit; }
+  text-decoration-style: solid;
+  text-decoration-color: inherit; }
 
 .header_tag.eyebrow {
   margin-bottom: 0; }
@@ -259,13 +243,9 @@ header {
   font-family: "Roboto Mono", monospace;
   width: 100%;
   padding: 1rem 0;
-  display: -webkit-box;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-          flex-direction: column;
-  -webkit-box-align: center;
-          align-items: center; }
+  flex-direction: column;
+  align-items: center; }
   .email_link .emoji {
     font-size: 2.4rem; }
 
@@ -332,7 +312,6 @@ h1 {
   padding: 0 1.5rem; }
   @media only screen and (min-width: 8.5in) {
     #content_wrapper {
-      display: -webkit-box;
       display: flex;
       flex-wrap: wrap; } }
 
@@ -340,8 +319,7 @@ h1 {
   padding: 0 1.5rem; }
   @media only screen and (min-width: 8.5in) {
     #page_top {
-      -webkit-box-flex: 1;
-              flex: 1 1 100%;
+      flex: 1 1 100%;
       padding: 0; } }
   #page_top h1 {
     text-align: left; }
@@ -353,16 +331,14 @@ h1 {
 
 @media only screen and (min-width: 8.5in) {
   main {
-    -webkit-box-flex: 0;
-            flex: 0 0 66.6666%;
+    flex: 0 0 66.6666%;
     padding-right: 0.25in; }
     main section {
       padding: 0; } }
 
 @media only screen and (min-width: 8.5in) {
   aside {
-    -webkit-box-flex: 0;
-            flex: 0 0 33.33%; }
+    flex: 0 0 33.33%; }
     aside > div {
       padding: 0; } }
 
@@ -418,16 +394,12 @@ address,
 
 #work_experience article,
 #education article {
-  display: -webkit-box;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-          flex-direction: column;
+  flex-direction: column;
   margin-bottom: 3rem; }
   #work_experience article .date_timespan,
   #education article .date_timespan {
-    -webkit-box-ordinal-group: 0;
-            order: -1; }
+    order: -1; }
 
 .subtext {
   display: block;
