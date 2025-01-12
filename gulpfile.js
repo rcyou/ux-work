@@ -29,9 +29,6 @@ gulp.task('sass', function() {
 	gulp.src('css/scss/*.scss')
 	.on('error', sass.logError)
 	.pipe(sass())
-	.pipe(autoprefix({
-			browserlist: ['last 5 versions']
-		}))
 	.pipe(gulp.dest('css/'))
 	// load new CSS files in browser when task runs
 });
