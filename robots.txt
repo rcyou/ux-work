@@ -1,3 +1,0 @@
-User-agent: *
-Disallow: /bore-planning-embedded-app.html
-Noindex: /bore-planning-embedded-app.html
