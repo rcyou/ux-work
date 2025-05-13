@@ -1,0 +1,26 @@
+---
+masthead: Ryan Young - UX Designer in Des Moines, Iowa
+seoTitle: Make meta titles 50 characters long to avoid truncation
+metaDescription: Make sure you add a meta description for your page
+pageKey: blog
+---
+<!doctype html>
+<html class="no-js" lang="en-US">
+   {% include "./partials/html-head.liquid" %}
+
+  <body id="{{ pageKey }}">
+    {% include "./partials/svg-icons.liquid" %}
+    {% include "./partials/header.liquid" %}
+
+    <main>
+      <section class="page-margin contained">
+        {{ content }}
+      </section>
+    </main>
+
+    <footer class="page-margin">
+      {% include "./partials/footer.liquid" %}
+    </footer>
+    {% include "./partials/tracking-scripts.liquid" %}
+  </body>
+</html>

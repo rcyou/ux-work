@@ -1,0 +1,170 @@
+---
+layout: layouts/tpl.liquid
+seoTitle: Universal Navigation
+metaDescription: Designing a universal navigation system that matches customer mental models and shopper priorities.
+primaryTitle: Universal Navigation
+---
+<section id="lede" class="page-margin contained">
+	<h1>{{ primaryTitle }}</h1>
+    <p class="summary big-text-20">Designing a universal navigation system that matches customer mental models and shopper priorities.</p>
+	<div>
+		<span class="small-text-14 mono eyebrow">Team</span>
+		<span>Product Owner, Tech Lead, 4 Developers, &amp; UX Designer (Me)</span>
+	</div>
+	<div>
+		<span class="small-text-14 mono eyebrow">Role & Activities</span>
+		<span><a href="#ui-design">UI Design</a>, Interaction Design, <a href="#prototyping">Prototyping</a>, <a href="#moderated-research">Moderated Customer Research</a>, <a href="#usability-testing">Usability Testing</a>, <a href="#concept-testing">Concept Testing</a></span>
+		<span class="small-text-14 mono eyebrow">Company</span>
+		<span>Hy-Vee</span>
+	</div>
+</section>
+
+<div class="large swiper" css-mode="true">
+    <ul class="swiper-wrapper">
+        <li class="swiper-slide">
+            <img src={{ "/images/global-nav/banner-health-page.jpg" | url }} alt="pharmacy page with wayfinding, submenus, and tertiary menu considered for the navigation system">
+        </li>
+        <li class="swiper-slide">
+            <img src={{ "/images/global-nav/banner-device-mockups.png" | url }} alt="showing the desktop, tablet, and expanded mobile variations of the main navigation system">
+        </li>
+        <li class="swiper-slide">
+            <img src={{ "/images/global-nav/banner-mobile-demo.jpg" | url }} alt="a customer using the navigation system on her phone to shop for groceries">
+        </li>
+    </ul>
+    <button class="swiper-button-prev"></button>
+    <button class="swiper-button-next"></button>
+  <div class="swiper-pagination"></div>
+</div>
+
+<section class="page-margin contained">
+    <span class="small-text-14 mono eyebrow">Problem</span>
+    <h2>How might we make use of existing navigation patterns to better match shopper mental models and browsing behaviors?</h2>
+    <p>Many customer-facing areas of Hy-Vee have their own navigation header, creating "seams" in the experience as customers browse different areas of the site. This makes it challenging for people to understand where they are in the digital scope of Hy-Vee. It also makes it difficult to traverse from one area to another, such as going from account info, to recipes, to pharmacy, or even the cart.</p>
+    <p>Prior to joining Hy-Vee, the UX group had conducted customer research, including a series of information architecture activities, to evaluate the current navigation structure and identify unmet customer needs. Without a singular team able to assume responsibility for the effort, progress had stalled. In order to breath life back into the project, Hy-Vee needed a group to define a "North Star" vision, as well as look inward to understand other product team needs and technical constraints.</p>
+    <p>Since my product team was also taking on the new company design system, I was designated as the new design lead responsible for delivering the global header project across the finish line.</p>
+</section>
+
+<figure class="large has-dropshadow page-margin">
+    <img loading="lazy" src={{ "/images/global-nav/current-headers.png" | url }} alt="4 main areas of Hy-Vee that all have their own navigation header and structure.">
+    <figcaption class="caption small-text-14 mono">From top to bottom: The standard header, grocery platform header, deals & coupons header, and specialty item header.</figcaption>
+</figure>
+
+<section class="page-margin contained">
+    <span class="small-text-14 mono eyebrow">Outcome</span>
+    <h2>A global affair</h2>
+    <p>Designing the navigation proved to be a small part of the overall project. Though the visual design is nondescript, the end result addresses customer needs by confronting development and data gaps that once led to disparate experiences. As we shared the concept with other teams and uncovered technical challenges, collaborating and over-communicating with multiple product teams became essential.</p>
+    <p>We quickly understood 3 features would be essential to determining success, preventing scope creep, and maintaining our sanity: search, store selection, and cart. Opportunities for additional customer research also materialized throughout the process, strengthening the long-term vision and defining our roadmap.</p>
+    <p>While on the surafce this appeared to be an opportunity to make flashy, visual enhancements, heuristics tell us that keeping things familiar increases confidence and learnability.</p>
+</section>
+
+<figure class="med rounded page-margin">
+    <video controls>
+      <source loading="lazy" src={{ "/images/global-nav/global-nav-demo.mp4" | url }} type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <figcaption class="small-text-14 mono caption">Video walkthrough of Figma prototype. No audio provided.</figcaption>
+</figure>
+
+<section class="page-margin contained">
+    <span class="small-text-14 mono eyebrow">Process</span>
+    <h2>Keeping focus on navigation</h2>
+    <p>Instead of diving right into desktop header designs, I opted for a mobile-first approach. Mobile web usage accounted for 55% of online traffic between February & March in 2021 – up 114% from the same time period in 2020 and up more than 350% from 2019, likely due to the pandemic. Hy-Vee had also recently completed improvements to its mobile app, so company executives were ready to align the new web navigation with insights gleaned from the app project.</p>
+    <p>Designing the mobile screens first ensures that the most important actions are clear and visible. Limited space means targeted conversations with stakeholders, emphasizing necessary actions that are directly tied to desired outcomes.</p>
+    <p>Before designing anything, though, I evaluated our existing mobile menus and compared the experience with those from top national competitors. To uncover more helpful navigation patterns, I turned to companies with websites that similar, multi-layered information architecture needs, such as Home Depot and Advanced Auto Parts.</p>
+</section>
+
+<figure class="med three-imgs page-margin contained">
+    <img loading="lazy" src={{ "/images/global-nav/mobile-concept-1.png" | url }} alt="iphone mockup showing a traditional header menu">
+    <img loading="lazy" src={{ "/images/global-nav/mobile-concept-2.png" | url }} alt="iphone mockup showing an icon-based, app-like menu">
+    <img loading="lazy" src={{ "/images/global-nav/mobile-concept-3.png" | url }} alt="iphone mockup showing a special link bar comprised of the most frequently visited pages">
+    <figcaption class="caption small-text-14 mono">Image order: traditional header, app-like header, and a header with a personalized link bar.</figcaption>
+</figure>
+
+<section class="page-margin contained">
+    <h2 id="concept-testing">Concept testing</h2>
+    <p>I started out noodling on 3 concepts. The goal was to differentiate each concept by moving key landmarks around and experimenting with unconventional ideas to suss out usability issues and user preferences. Through testing, I planned to uncover whether one idea was ideal as-is (unlikely) or what worked from each and then combine these into a single design.</p>
+    <p>I set up an advanced usability study in UserZoom where I could randomly assign participants to 1 of the 3 concepts. Each participant only saw 1 prototype. At the end, we had 41 participants, averaging out to 14 people per concept. To ensure all participants were Hy-Vee customers, I collaborated with our digital marketing team to send out emails to a few hundred people who had previously signed up to be part of our customer feedback list.</p>
+    <p>I prototyped 5 different tasks for each concept. 15 prototypes total. The most labor-intensive task was one where I asked participants to use the menu to locate toilet paper products. Otherwise, the other task prototypes required 5 designed screens or fewer.</p>
+    <p><b>The results?</b> Overall, success was pretty high for all tasks within each concept. Luckily, after each task I asked participants to report how confident they felt about completing the task. This became my barometer for success. The app-like concept had the highest confidence scores, and the icons for main menu items seemed to facilitate scanning and information recall.</p>
+    <p>Other interesting items: Customer reliance on search was strongly apparent, and the "broken search bar" was one of the top particpant complaints. Customers disliked the many levels of submenus in all the concepts, suggesting the need for high-level category pages where customers can filter products if searching proved unsuccessful. Also, mental models around “shopping a store” online also started to surface.</p>
+</section>
+
+<figure class="med page-margin">
+    <img class="border" src={{ "/images/global-nav/gn-concept-user-quote.jpg" | url }} loading="lazy" alt="quote: Not sure if the shop option checks my store. Assuming it does since it shows my store, but not fully confident">
+    <figcaption class="caption small-text-14 mono">Testing participants viewed their online shopping experience through a local lens, expecting to see items available in their area or at stores nearby.</figcaption>
+</figure>
+
+<section class="page-margin contained">
+    <h2 id="ui-design">UI distillation</h2>
+    <p>Though the app-like concept seemed to be the most successful, the traditional header also scored well. Participant feedback indicated that the concept seemed more familiar, which bolstered stakeholder preference. As Jakob's Law points out: Customers prefer a site to work the same way as sites they already know. Following industry conventions is an easy usability boost.</p>
+    <p>With this direction, I cleaned up the look of the header – adjusting spacing, adding tertiary actions that were missed before, and extended the design to tablet and desktop widths to identify breakpoints.</p>
+    <p>Before the high-fidelity designs could be turned into a coded header, our team needed to understand the feasibility of 3 main landmarks: search, store selection, and cart.</p>
+</section>
+
+<figure class="large page-margin">
+    <img loading="lazy" class="border" src={{ "/images/global-nav/gn-miro-breakdown.jpg" | url }} alt="mapping the technical dependencies for a minimum viable navigation experience">
+    <figcaption class="caption small-text-14 mono">A project roadmap connecting technical dependencies with navigational elements expected by business stakeholders &amp; customers (derrived from testing).</figcaption>
+</figure>
+
+<section class="page-margin contained">
+    <h2>Universal search or bust</h2>
+    <p>Search is another inconsistent component across various areas of Hy-Vee. Our team knew that a universal navigation would be useless without a universal search experience. Making the interface look the same but having different search behavior would lead to confusion and frustration.</p>
+    <p>To solve this, we connected with the Search &amp; Browse team, which had already started exploring a related problem. Analysis of customer search data indicated that in addition to products, people were searching for things like checkout, account details, and order history, as well as departments, such as floral.</p>
+    <p>With customer info and alignment on delivering 'one search to rule them all,' our groups worked together to understand the constraints we had to work with. Our solution provides a dropdown menu with 3 scoped search links for the 3 product-focused areas of Hy-Vee, plus a list of suggested products matching what the customer has typed.</p>
+</section>
+
+<figure class="med page-margin">
+    <img loading="lazy" src={{ "/images/global-nav/gn-search.gif" | url }} alt="typing coffee shows suggested results and modifying the query to coffee beans populates different suggestions">
+    <figcaption class="caption small-text-14 mono">To unify the search experience, we offered options to search in a certain department or choose from familiar, product-based smart suggestions.</figcaption>
+</figure>
+
+<section class="page-margin contained">
+    <h2 id="usability-testing">Store selection</h2>
+    <p>On certain areas of the Hy-Vee website, customers expect to see content and products filtered to their store. This is a familiar pattern online shoppers are accustom to on e-commerce sites where local inventory influences online and in-store purchases.</p>
+    <p>I did some user research to understand how customers see the store contributing to their online browsing and shopping experiences outside of products. What do people expect if a store is visible in the header while they are refilling a prescription? What about if they are trying to find out what is on sale?</p> 
+    <p>To find out, I created a prototype with 6 different tasks that told the story of Desireé, a new online customer in Kansas City who needs to order groceries for pickup. Tasks included checking the store hours to see how long pickup services are availble and designating a store to receive weekly ads and coupons via email. These tasks were set up in an unmoderated usability study via UserZoom.</p>
+    <p>I learned that when it comes to shopping online, people rarely change their perferred store. But that changes when they're browsing deals and sales, looking at nearby stores that may offer products at a better price. This suggested further exploration was needed on an "in-store" option where the store wasn't tied to delivery or pickup fulfillment until a customer had taken steps to order.</p>
+</section>
+
+<section class="page-margin contained">
+    <h2 id="moderated-research">Cart preview</h2>
+    <p>As our team spoke with others about integration challenges and dependencies, we learned that the cart preview demanded several API calls, which negatively impacted page load speed and other performance metrics. Plans to make this available on all areas of Hy-Vee would only add to these performance issues.</p>
+    <p>While performance improvements were not considered integral to the the delivery of a global navigation, I saw this as an opportunity to evaluate a piece of the experience that seemed to be generally ignored as part of the experience. I conducted moderated interviews with 6 Hy-Vee customers to learn how valuable the cart preview is currently for shoppers and how it’s being used.</p>
+</section>
+
+<figure class="med page-margin">
+    <img loading="lazy" class="border rounded" src={{ "/images/global-nav/cart-preview-evaluation.gif" | url }} alt="various interactive components pieces created in the design tool Figma">
+</figure>
+
+<section class="page-margin contained">
+    <p>In the interviews, I learned that most participants ignored the preview window. It was treated as a means to getting to the more detailed cart page where customers could see photos of the product and a breakdown of their order. This is also where a majority preferred to update item quantities and remove items they no longer needed.</p>
+    <p>I shared the findings with the Cart &amp; Checkout team, and turned the insights into design explorations for possible cart preview improvements that focused on progressive disclosure and better information hierarchy.</p>
+</section>
+
+<figure class="large page-margin">
+    <img loading="lazy" src={{ "/images/global-nav/cart-preview-comparison.png" | url }} alt="The current tabbed cart preview window compared to various concept ideas that combine the order catageories into a full cart snapshot.">
+    <figcaption class="caption small-text-14 mono">From left to right: The current tabbed cart preview window compared to various concept ideas that combine the order catageories into a full cart snapshot.</figcaption>
+</figure>
+
+<section class="page-margin contained">
+    <h2 id="prototyping">Prototyping the experience</h2>
+    <p>As our team started turning the visuals into code, it became clear that a single source of truth was needed for reference as user stories and developer tasks started filling up our Jira board.</p>
+    <p>In Figma I created robust prototypes to show interactive states for various elements in the header, menu items expected for the future release, and how the interface changes at different screen sizes.</p>
+    <p>I also created a Figma component library for all the bits composing the header so that as conversations with progressed and changes were needed, those updates would be immediately reflected in the prototype and eliminate confusion.</p>
+</section>
+
+<figure class="med page-margin">
+    <img loading="lazy" src={{ "/images/global-nav/gn-figma-components.png" | url }} alt="various interactive components pieces created in the design tool Figma">
+</figure>
+
+<section class="page-margin contained">
+    <span class="small-text-14 mono eyebrow">Reflections &amp; Learnings</span>
+    <h2>What I liked</h2>
+    <p>Leading such a big, collaborative initiative soon after joining Hy-Vee was a special opportunity. Working with other UX designers and product teams rapidly increased my knowledge of how Hy-Vee focuses on the customer throughout their journey. I also enjoyed introducing my design proccess to others. I started out testing ideas, and as I felt more comfortable in the direction, asked others to poke holes in my concept. Several thought I was approaching them with an approved, final design. But once I explained how everything was still malleable, the walls came down, inviting collabortion.</p>
+    <h2>What I learned</h2>
+    <p>The primary thing I learned from this project is that there is no such thing as over communication. In total, our team needed to gain support from 6 different product teams, and sharing research and decisions, as well as fielding questions, was a group effort. We couldn't rely on information being relayed up or down the chain. Weekly calls with stakeholders proved invaluable, but supplimented other, smaller alignment meetings aimed at keeping everyone informed.</p>
+    <h2>What I lacked</h2>
+    <p>As the project neared completion, the lack of a key decision maker required our team to spend extra effort clarifying what was and wasn't in scope. Debates with other groups about the best path forward required multiple discussions. Issues that initially seemed important were later eliminated. This missing decision maker would have been able to break ties and guide us about possible feature work other teams may have in flight that may lead to dependencies.</p>
+    <h2>What I longed For</h2>
+    <p>Truthfully, I longed for more trust my others outside my team and first-level stakeholders. Sharing outcomes and the planned path forward incited debate after my teammates and I had done the research and gained support to move forward. These disagreements were largely fuled by opinion and significantly slowed our progress.</p>
+</section>

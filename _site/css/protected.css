@@ -1,0 +1,681 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+abbr, address, article, aside, audio, b, blockquote, body, canvas, caption, cite, code, dd, del, details, dfn, div, dl, dt, em, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, p, pre, q, samp, section, small, span, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, ul, var, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: 0 0;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: 0 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  margin: 1em 0;
+  padding: 0;
+  border: 0;
+}
+
+button, input, select, textarea {
+  margin: 0;
+}
+
+button, input, select {
+  vertical-align: middle;
+}
+
+html {
+  height: 100%;
+  height: 100vh;
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100%;
+  font-size: 1.6rem;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.625;
+  letter-spacing: -0.2px;
+  font-weight: 400;
+  background-color: #FAF9FF;
+  color: #364153;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration-style: dotted;
+  text-underline-offset: 1.5px;
+  color: #2104C3;
+  font-weight: bold;
+}
+a:hover, a:focus {
+  color: #101828;
+  text-decoration-style: solid;
+}
+
+img {
+  border: 0;
+  display: block;
+  max-width: 100%;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 4.8rem;
+  font-weight: 600;
+  width: 100%;
+  line-height: 1.25;
+  letter-spacing: -1.2px;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.125;
+  letter-spacing: -0.6px;
+}
+
+h3 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.125;
+}
+
+h4 {
+  font-size: 2.5rem;
+}
+
+h5 {
+  font-size: 2.1rem;
+}
+
+h6 {
+  font-size: 1.8rem;
+}
+
+p {
+  margin: 2rem 0 0 0;
+}
+section p:only-child, section p:first-child {
+  margin-top: 0;
+}
+
+sup {
+  vertical-align: super;
+}
+
+sub {
+  vertical-align: sub;
+}
+
+sup, sub {
+  font-size: 1rem;
+  line-height: 1;
+}
+
+b, strong {
+  font-weight: bold;
+  font-weight: 700;
+}
+
+i, em {
+  font-style: italic;
+}
+
+hr {
+  width: 100%;
+  height: 1px;
+  border: 0;
+  background-color: #D1D5DC;
+}
+
+svg {
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  display: block;
+}
+
+details {
+  cursor: pointer;
+}
+details summary:focus-visible {
+  outline-width: 2px;
+  outline-offset: 0.4rem;
+  outline-color: #2104C3;
+  outline-style: auto;
+}
+
+main,
+footer {
+  margin: 0 auto;
+}
+
+figure, video {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  margin: auto;
+}
+figure figcaption.caption, video figcaption.caption {
+  text-align: center;
+  margin-top: 2rem;
+  display: block;
+  width: 100%;
+}
+figure.stacked-imgs img:first-of-type, video.stacked-imgs img:first-of-type {
+  margin: 0 auto 2.4rem auto;
+}
+figure.stacked-imgs img:last-of-type, video.stacked-imgs img:last-of-type {
+  margin: 0 auto;
+}
+figure img, video img {
+  width: auto;
+  max-width: 100%;
+  margin: 0 auto;
+}
+figure img.multiply, video img.multiply {
+  mix-blend-mode: multiply;
+}
+figure img.darken, video img.darken {
+  mix-blend-mode: darken;
+}
+figure img.border, video img.border {
+  border: 1px solid #E5E7EB;
+}
+figure.has-dropshadow img, video.has-dropshadow img {
+  filter: drop-shadow(0px 2px 3px lightgray);
+}
+figure.double-img > img:first-child, video.double-img > img:first-child {
+  margin: 0 auto 4rem;
+}
+figure.double-img > img:last-child, video.double-img > img:last-child {
+  margin: 4rem auto 0 auto;
+}
+@media only screen and (min-width: 800px) {
+  figure.double-img, video.double-img {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  figure.double-img.cards, video.double-img.cards {
+    align-items: stretch;
+  }
+  figure.double-img > img, video.double-img > img {
+    flex: 0 1 49%;
+    width: 49%;
+  }
+  figure.double-img > img:first-child, video.double-img > img:first-child {
+    margin: 0 1% 0 0;
+  }
+  figure.double-img > img:last-child, video.double-img > img:last-child {
+    margin: 0 0 0 1%;
+  }
+  figure.double-img > .embedded-figure, video.double-img > .embedded-figure {
+    flex: 0 1 49%;
+    width: 49%;
+  }
+  figure.double-img > .embedded-figure:first-child, video.double-img > .embedded-figure:first-child {
+    margin: 0 1% 0 0;
+  }
+  figure.double-img > .embedded-figure:last-child, video.double-img > .embedded-figure:last-child {
+    margin: 0 0 0 1%;
+  }
+}
+figure.three-imgs > img:first-of-type,
+figure.three-imgs > img:nth-of-type(2), video.three-imgs > img:first-of-type,
+video.three-imgs > img:nth-of-type(2) {
+  margin: 0 auto 2rem auto;
+}
+figure.three-imgs > img:last-of-type, video.three-imgs > img:last-of-type {
+  margin: 0 auto;
+}
+@media only screen and (min-width: 600px) {
+  figure.three-imgs, video.three-imgs {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  figure.three-imgs.cards, video.three-imgs.cards {
+    align-items: stretch;
+  }
+  figure.three-imgs > img, video.three-imgs > img {
+    flex: 0 1 32.33%;
+    width: 32.33%;
+  }
+  figure.three-imgs > img:first-of-type, video.three-imgs > img:first-of-type {
+    margin: 0 1% 0 0;
+  }
+  figure.three-imgs > img:nth-of-type(2), video.three-imgs > img:nth-of-type(2) {
+    margin: 0 0.5%;
+  }
+  figure.three-imgs > img:last-of-type, video.three-imgs > img:last-of-type {
+    margin: 0 0 0 1%;
+  }
+}
+
+ul, ol {
+  list-style-position: outside;
+  margin: 3.2rem 0rem 3.2rem 1.6rem;
+}
+ul li, ol li {
+  margin-bottom: 3.2rem;
+}
+ul li:last-child, ol li:last-child {
+  margin-bottom: 0;
+}
+
+button,
+input[type=submit],
+input[type=reset] {
+  appearance: none;
+}
+
+*[data-hidden=hidden] {
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+}
+
+blockquote.callout {
+  font-weight: 300;
+  color: #364153;
+  font-size: 2.4rem;
+  padding: 3.2rem 0;
+  border-top: 2px solid #E5E7EB;
+  border-bottom: 2px solid #E5E7EB;
+}
+p + blockquote.callout {
+  margin-top: 2rem;
+}
+blockquote.callout cite {
+  display: block;
+  margin-top: 1rem;
+  text-align: right;
+}
+
+.terminal {
+  background: #101828;
+  color: #FFF;
+  font-family: "Roboto Mono", monospace;
+  max-width: 800px;
+  padding: 4rem;
+}
+.terminal ul {
+  line-height: 1.35;
+  list-style-position: inside;
+}
+.terminal ul li {
+  display: flex;
+  margin-top: 1rem;
+}
+.terminal ul li:before {
+  content: "+";
+  display: inline-block;
+  margin-right: 2rem;
+}
+.terminal ul.qa-list li:nth-child(odd):before {
+  content: "Q:";
+  font-style: italic;
+}
+.terminal ul.qa-list li:nth-child(even):before {
+  content: "A:";
+  font-weight: 700;
+}
+.terminal ul.no-list li:before {
+  content: "";
+  margin-right: 0;
+}
+
+::-moz-selection {
+  background: #2DB59E;
+  color: #FFF;
+}
+
+::selection {
+  background: #2DB59E;
+  color: #FFF;
+}
+
+::-moz-selection {
+  background: #2db59e;
+  color: #FFF;
+}
+
+.staticrypt-hr {
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  border: 0;
+  border-top: 1px solid #E5E7EB;
+}
+
+.staticrypt-page {
+  width: 48rem;
+  padding-top: 10rem;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.staticrypt-form {
+  position: relative;
+  z-index: 1;
+  background: #FFF;
+  margin: 0 auto 10rem;
+  padding: 4rem;
+  text-align: center;
+  border: 1px solid #E5E7EB;
+  border-radius: 0.8rem;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.staticrypt-form input[type=password],
+input[type=text] {
+  background: #E5E7EB;
+  border: 1px solid #D1D5DC;
+  font-size: 1.6rem;
+  padding: 1.2rem 3.2rem 1.2rem 1.2rem;
+  /* Adjust the padding to ensure there is space for the icon */
+  width: 100%;
+}
+
+.staticrypt-form input[type=password]:focus,
+input[type=text]:focus {
+  outline-color: #2104C3;
+  outline-width: 2px;
+  outline-offset: 0.4rem;
+  background-color: #FFF;
+  border: 1px solid #6A7282;
+}
+
+.staticrypt-password-container {
+  position: relative;
+  outline: 0;
+  background: #FFF;
+  width: 100%;
+  border: 0;
+  margin-bottom: 2rem;
+}
+
+.staticrypt-toggle-password-visibility {
+  cursor: pointer;
+  height: 2rem;
+  width: 2rem;
+  opacity: 0.6;
+  position: absolute;
+  right: 2%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.staticrypt-form .staticrypt-decrypt-button {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 600;
+  outline: 0;
+  background: #2104C3;
+  border: 1px solid navy;
+  border-radius: 0.5rem;
+  padding: 1.2rem 2rem;
+  color: #FFF;
+  font-size: 1.6rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.staticrypt-form .staticrypt-decrypt-button:hover,
+.staticrypt-form .staticrypt-decrypt-button:active,
+.staticrypt-form .staticrypt-decrypt-button:focus {
+  background: #2104C3;
+  filter: saturate(60%);
+}
+
+.staticrypt-form .staticrypt-decrypt-button:focus {
+  outline: 2px solid #2104C3;
+  outline-offset: 0.2rem;
+}
+
+.staticrypt-html {
+  height: 100%;
+}
+
+.staticrypt-body {
+  height: 100%;
+  margin: 0;
+}
+
+.staticrypt-content {
+  height: 100%;
+  margin-bottom: 2rem;
+  background: #FAF9FF;
+}
+
+.staticrypt-title {
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+label.staticrypt-remember {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding-left: 0.4rem;
+}
+
+.staticrypt-remember input[type=checkbox] {
+  margin-right: 0.8rem;
+}
+
+.staticrypt-remember input[type=checkbox]:focus {
+  outline-color: #2104C3;
+  outline-width: 0.5px;
+  outline-offset: 0.3rem;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.staticrypt-spinner-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.staticrypt-spinner {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  vertical-align: text-bottom;
+  border: 0.25em solid #6A7282;
+  border-right-color: transparent;
+  border-radius: 50%;
+  -webkit-animation: spinner-border 0.75s linear infinite;
+  animation: spinner-border 0.75s linear infinite;
+  animation-duration: 0.75s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: spinner-border;
+}
+
+@keyframes spinner-border {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .staticrypt-form input[type=password],
+  input[type=text] {
+    font-size: 1.6rem;
+  }
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+@media only screen and (min-width: 800px) {
+  header {
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 2.4rem;
+    margin-bottom: 2.4rem;
+    max-width: 100rem;
+    gap: 2rem;
+  }
+}
+
+aside {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.6rem;
+  flex: 0 1 100%;
+  margin-top: 2.4rem;
+}
+@media only screen and (min-width: 600px) {
+  aside {
+    gap: 2rem;
+    margin-top: 0;
+  }
+}
+aside div {
+  flex: 1 1 auto;
+}
+
+#logo {
+  color: #101828;
+  text-decoration: none;
+  line-height: 1;
+  flex: 0 0 auto;
+  padding-top: 0.6rem;
+  height: 3.2rem;
+  width: 6rem;
+}
+@media only screen and (min-width: 600px) {
+  #logo {
+    height: 4.5rem;
+    width: 8.5rem;
+  }
+}
+
+#personal-logo {
+  display: inline-block;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+#name {
+  display: block;
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+  line-height: 1;
+}
+@media only screen and (min-width: 600px) {
+  #name {
+    font-size: 3.2rem;
+  }
+}
+
+#headline {
+  display: block;
+  margin-bottom: 0.8rem;
+}
+
+nav {
+  width: 100%;
+}
+
+#site_menu {
+  margin: 0.8rem 0;
+  list-style: none;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+@media only screen and (min-width: 800px) {
+  #site_menu {
+    margin: 0;
+  }
+}
+#site_menu li {
+  display: inline-block;
+  margin-bottom: 0;
+  flex: 1 1 auto;
+}
+#site_menu a {
+  display: inline-block;
+  font-size: 1.1rem;
+  padding: 1.2rem 0.8rem;
+  text-decoration-color: transparent;
+  text-decoration-style: solid;
+  text-underline-offset: 5px;
+  font-weight: 700;
+  text-decoration-thickness: 2px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1;
+  transition: all 100ms ease-in-out;
+}
+#site_menu a:hover, #site_menu a:focus {
+  text-decoration-color: inherit;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../sass/partials/_reset.scss%22,%22../../sass/partials/_base.scss%22,%22../../sass/partials/_variables.scss%22,%22../../sass/partials/_staticrypt.scss%22,%22../../sass/partials/_header.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%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%22,%22file%22:%22protected.css%22%7D */

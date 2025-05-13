@@ -1,0 +1,145 @@
+---
+layout: layouts/tpl.liquid
+seoTitle: Arts Festival Mobile App Concept
+metaDescription: Making it easier for festival goers keep track of artists they’ve seen & the ones they want to follow.
+primaryTitle: Arts Festival Mobile App
+---
+<section id="lede" class="page-margin contained">
+	<h1>{{ primaryTitle }}</h1>
+        <p class="summary big-text-20">{{ metaDescription }}</p>
+	<div>
+        <span class="small-text-14 mono eyebrow">Team</span>
+        <span>Just Me</span>
+    </div>
+    <div>
+        <span class="small-text-14 mono eyebrow">Role & Activities</span>
+        <span><a href="#ooux">OOUX</a>, <a href="#wireframing">Wireframing</a>, <a href="#ui-design">Visual/UI Design</a>, <a href="#interaction-design">Interaction Design</a>, Prototyping, <a href="#front-end">Front End Development</a></span>
+        <span class="eyebrow" data-hidden="hidden">Agency</span>
+        <span data-hidden="hidden">Visionary Services</span>
+    </div>
+</section>
+
+<div class="large swiper" css-mode="true">
+    <ul class="swiper-wrapper">
+        <li class="swiper-slide">
+            <img src={{ "/images/arts-fest/banner-arts-3phones.png" | url }} alt="mockups of the app showing an empty state, a list of visual artists, and a an abstract artist's profile">
+        </li>
+        <li class="swiper-slide">
+            <img src={{ "/images/arts-fest/banner-arts-bench.jpg" | url }} alt="woman sitting on a bench looking at a list of events">
+        </li>
+        <li class="swiper-slide">
+            <img src={{ "/images/arts-fest/banner-arts-screens.png" | url }} alt="mockups of the app showing an empty state, a list of visual artists, and a an abstract artist's profile">
+        </li>
+    </ul>
+    <button class="swiper-button-prev"></button>
+    <button class="swiper-button-next"></button>
+  <div class="swiper-pagination"></div>
+</div>
+
+<section class="page-margin contained">
+    <span class="small-text-14 mono eyebrow">Problem</span>
+    <h2>How might we help festival goers remember the artists they liked?</h2>
+    <p>Each year, Des Moines Arts Festival staff members receive dozens of calls and emails from people looking for help recalling a particular artist from the festival. Often it is one from the most recent event. But sometimes, the artist is from a festival many years back.</p>
+    <p>Approximately 180 artists set up their tents downtown in late June. Their names, as well as contact info and images of their work, are published on the festival website as part of a searchable database organized by year that dates back to 2009. This has helpeded, but people continue to reach out.</p>
+</section>
+
+<section class="page-margin contained">
+    <span class="small-text-14 mono eyebrow">Research</span>
+    <h2 id="design-thinking">Unpacking the problem</h2>
+    <p>Curious to know whether other festivals with similar cachet face this challenge, I emailed a handful of directors and program managers. I received replies from 5 people, 4 of whom said their organization has an artist directory online akin to the Des Moines Arts Festival. In their experience, this directory seems to diminish calls and emails, which tend to be infrequent.</p>
+    <p>Interestingly, one respondent from a festival production company that organizes more than 20 events said they field calls all year. In fact, this type of ‘detective work’ is one of the more fun aspects of the job.</p>
+    <blockquote>
+        I’ve been told that [the website] has been a source of ongoing connections for commissions and additional sales. I also know the majority of [artist] sales are in-person at the show. 
+        <cite>&mdash; Texas festival director</cite>
+    </blockquote>
+    <p>While appearing to be not much of an issue for festival staff, I turned my attention to event patrons. I created a survey using Google Forms with 13 questions (11 required) asking people about their experiences at the Des Moines Arts Festival and their relience on technology while at the event.</p>
+    <p>In the survey, I specifically asked whether they have encountered a time when they wanted to look up an artist from the festival but couldn’t remember the artist’s name or information.</p>
+    <p>I posted the link on my social media accounts where I knew I had a localized audience. Over 10 days, 13 people responded.</p>
+</section>
+
+<figure class="large double-img page-margin">
+    <img class="round-card" src={{ "/images/arts-fest/survey-q-remember-artist.jpg" | url }} loading="lazy" alt="a survey question asking if someone has experienced a time they wanted to look up an artist from the festival but couldn't remember their info. 77 percent had.">
+    <img class="round-card" src={{ "/images/arts-fest/survey-q-check-website.jpg" | url }} loading="lazy" alt="pie chart showing 85 percent of people do not check the festival website when at the festival.">
+</figure>
+
+<section class="page-margin contained">
+    <p>More than 75 percent of respondents said they’d experienced a time at some point after attending the festival they wanted to learn more about an artist but couldn’t remember the artist’s name or info.</p>
+    <p>Perhaps more fascinating: People reported phone low levels of phone usage while at the festival outside of calling and text messaging. When people recalled using their phones, taking photos or looking up nearby restaurants were the main activities.</p>
+    <ul class="callout-list arts-fest-data">
+        <li data-content="84%">People who said they do not check the festival website on their phone while at the event.</li>
+        <li data-content="70%">People who said they would use a festival-specific mobile app.</li>
+        <li data-content="2">Number of people who said they might use a mobile app, but also said they do not typically visit the website on their phone while at the festival.</li>
+        <li data-content="5">Number of people who said they’ve bought a piece of art from an artist from the festival at some point after the event.</li>
+    </ul>
+    <p>Seeing the art, listening to live music, and the general atmopshere stood out as the top 3 highlights for most people attending the festival.</p>
+</section>
+
+<figure class="med round-card page-margin">
+    <img src={{ "/images/arts-fest/survey-q-phone-usage.jpg" | url }} loading="lazy" alt="a bar chart showing only 2 people frequently or often use their phones at the festival for activities other than calling or texting.">
+</figure>
+
+<section class="page-margin contained">
+    <h2 id="user-research">Who are we designing for?</h2>
+    <p>In spite of the limited data, I elected to sketch out the type of user who would benefit most from a solution to this problem. Not only did this allow me to imagine the experience from another vantage point, but this persona also helped me reframe my ideas and decisions as I got deeper into my process.</p>
+</section>
+
+<figure class="med page-margin">
+    <img class="border" src={{ "/images/arts-fest/arts-fest-persona.jpg" | url }} loading="lazy" alt="persona sketch of Lilah, a 36-year-old woman who works in insurance and is always on the lookout for something fun to decorate her home.">
+     <figcaption class="small-text-14 mono caption">Persona sketch of Lilah, a 36-year-old woman who works in insurance and is always on the lookout for something fun to decorate her home.</figcaption>
+</figure>
+
+<section class="page-margin contained">
+    <p>Given the survey data, duplicating the content from the festival website did not seem like a sufficient strategy for getting someone like Lilah interested in a dedicated mobile app. The perceived value needs to be greater than the effort required from the user.</p>
+    <p>This got me thinking about ways our devices could be a proactive resource at events like this without expecting to change people’s behavior. I did some research on location-based services and found potential in a technology many touted would save the retail industry not long ago.</p>
+</section>
+
+<section class="page-margin contained">
+    <span class="small-text-14 mono eyebrow">A Solution</span>
+    <h2>Keeping track of your browsing history, literally</h2>
+    <p>Low energy Bluetooth beacons placed in each artist’s tent seem like a hands-free way mobile app users could enjoy a magically-generated list of all the artists they’d visited at the festival. Later, they could separate their list by marking which artist they liked.</p>
+    <p>For anyone who spent multiple days at the festival, the list could be organized by the day they attended, and over time, by the year.</p>
+    <p>A real-time schedule of events or restaurant coupons might entice new users to download the app. But long-term adoption would come from maintaining this personal catalog.</p>
+</section>
+
+<figure class="med page-margin">
+    <img class="multiply" src={{ "/images/arts-fest/arts-fest-storyboard.jpg" | url }} loading="lazy" alt="an illustration showing how Bluetooth beacons can unintrusively send a signal to a phone">
+    <figcaption class="small-text-14 mono caption">A storyboard showing how Bluetooth beacons can unintrusively send a signal to a phone.</figcaption>
+</figure>
+
+<section class="page-margin contained">
+    <span class="small-text-14 mono eyebrow">Process</span>
+    <h2 id="wireframing">Sketching the interface</h2>
+    <p>With a concept in mind, I drew out some ideas for a simple app. Because this is meant to help Lilah remember which artists she likes, listing them out front and center seemed the most appropriate for the main screen.</p>
+    <p>Since Lilah also enjoys going to the concerts during the festival, it made sense to include a master schedule of all the events, so she and her friends can keep track of what’s happening in real time and set up alerts for anything she wants to see.</p>
+</section>
+
+<figure class="small page-margin">
+    <img src={{ "/images/arts-fest/arts-fest-sketches.jpg" | url }} loading="lazy" alt="sketches of a future app interface">
+</figure>
+
+<section class="page-margin contained">
+    <h2 id="ui-design">Designing the app experience</h2>
+    <p>One challenege with the Des Moines Arts Festival is that organizers put together a new brand campaign each year for the festival. However, I started with the look and feel from a past year that aligned with the bold, energetic vibe I associate with the event.</p>
+</section>
+
+<figure class="large three-imgs page-margin">
+    <img class="border" src={{ "/images/arts-fest/arts-app-list.jpg" | url }} loading="lazy" alt="iphone mockup showing a list of artists">
+    <img class="border" src={{ "/images/arts-fest/arts-app-artist.jpg" | url }} loading="lazy" alt="iphone mockup showing an artist's profile page">
+    <img class="border" src={{ "/images/arts-fest/arts-app-events.jpg" | url }} loading="lazy" alt="iphone mockup showing a list of live music acts playing that day">
+</figure>
+
+<figure id="prototyping" class="small">
+   <iframe width="100%" height="800" loading="lazy" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fvm4XreU4BOGqz8svwS3ScX%2FArts-Fest-App%3Fnode-id%3D1908%253A3054%26scaling%3Dscale-down%26page-id%3D1908%253A3053%26starting-point-node-id%3D1908%253A3054"></iframe>
+</figure>
+
+<section class="page-margin contained">
+    <span class="small-text-14 mono eyebrow">Reflections &amp; Learnings</span>
+    <h2>What I liked</h2>
+    <p>Not only is the Des Moines Arts Festival one of my favorite local events, arts and culture in general lends itself well to bold and playful themes. I really enjoyed mixing and matching colors and riffing on imagery when working on building a cohesive look and feel to the app. Prototyping and putting together all the screens into a realistic experience is also one of my favorite parts of a project.</p>
+    <h2>What I learned</h2>
+    <p>Although this project focuses on the design, I learned a lot about Bluetooth technology and Near Field Communications. I had to in order to feel confident in proposing the solution I ultimately came up with. While I abid by a ‘no constraints’ mindset, I am a big believer in designers understanding the capabilities of technology in order to more creatively connect the dots between desireability and feasability.</p>
+    <h2>What I lacked</h2>
+    <p>I hoped my user questionnaire would have garnered more engagement. While 13 responses is a good number for this small, concepting project, more data needs to be collected from diverse audiences to have a holistic view of user need and desirability. Considerations also need to be made around the business as far as cost in addition to beacon reusability and weatherproofing.</p>
+    <h2>What I longed For</h2>
+    <p>It would have been fantastic to have a development partner building a proof of concept with me during this process. Despite my research to understand what’s possible, it always helps to get something working – even something as simple as an app that triggers a message or logs the data transmitted when a user is in the proximity of a beacon. Since artist tents are pretty close to each other, I am curious to know how these signals could be parsed when multiple beacons are neaby.</p>
+</section>

@@ -1,0 +1,180 @@
+---
+layout: layouts/tpl.liquid
+seoTitle: Opioid Prescription Assistant
+metaDescription: A focused, 10-hour design challenge to create a digital tool for people needing help reducing dependence on opioid painkillers.
+primaryTitle: Opioid Presciption Assistant
+---
+<section id="lede" class="page-margin contained">
+	<h1>{{ primaryTitle }}</h1>
+    <p class="summary big-text-20">{{ metaDescription }}</p>
+	<div>
+	    <span class="small-text-14 mono eyebrow">Role & Activities</span>
+	    <span><a href="#design-thinking">Design Thinking</a>, <a href="#user-research">User Research</a>, <a href="#wireframing">Wireframing</a>, <a href="#ui-design">Visual/UI Design</a>, <a href="#interactive-design">Interactive Design</a>, <a href="#prototyping">Prototyping</a></span>
+	    <span class="eyebrow" data-hidden="hidden">Agency</span>
+	    <span data-hidden="hidden">Pillar Technology</span>
+	</div>
+</section>
+
+<div class="large swiper" css-mode="true">
+    <ul class="swiper-wrapper">
+        <li class="swiper-slide">
+            <img src={{ "/images/opioid/banner-opioid-tiles.png" | url }} alt="isometric tiling of iphone mockups">
+        </li>
+        <li class="swiper-slide">
+            <img src={{ "/images/opioid/banner-opioid-3phones.png" | url }} alt="iphone mockups of the loading screen, resources page, and the tapering chart">
+        </li>
+        <li class="swiper-slide">
+            <img src={{ "/images/opioid/banner-opioid-storemock.png" | url }} alt="a mockup showing what this app may look like in the Apple store">
+        </li>
+    </ul>
+    <button class="swiper-button-prev"></button>
+    <button class="swiper-button-next"></button>
+  <div class="swiper-pagination"></div>
+</div>
+
+<section class="page-margin contained">
+    <span class="small-text-14 mono eyebrow">Problem</span>
+    <h2>How might we help diminish the number of opioid overdoses in the United States?</h2>
+    <p class="big-text-20">Addiction to painkillers remains an epidemic in the U.S. despite a recent decrease in the number of opioid overdose deaths in 2018. Amid the covid-19 pandemic, quarantines and lockdowns have disrupted America’s response to the crisis, leading to a new surge in overdose deaths.</p>
+    <p>It is estimated that 21-29 percent of patients prescribed opioids for chronic pain misuse them, and 8-12 percent develop an addiction. While some doctors have changed their prescription habits in response to this crisis, the problem still persists. Data also shows it may be impacting minority communities the most.</p>
+</section>
+
+<section class="page-margin contained">
+    <span class="small-text-14 mono eyebrow">Research</span>
+    <h2 id="design-thinking">Unpacking the problem</h2>
+    <p>Trying to solve a complex problem, like a nationwide public health emergency, can feel overwhleming. But understanding the smaller bits and how they fit into the larger issue helps uncomplicate things.</p>
+    <blockquote class="callout page-margin contained">
+       As Desmond Tutu once said, “There is only one way to eat an elephant: A bite at a time.”
+    </blockquote>
+    <p>After some of high-level research, I wrote out the key groupings of people involved and posted them on a wall. These ranged from pharmaceutical companies to the individuals and their loved ones who have been affected by addiction. Then, I looked further into the relationships between each group to uncover the specific challenges and opplortunities for innovation. Three points stuck out.</p>
+    <ol class="big-number-list">
+      <li>Most overdoses occur because people switch from prescriptions to narcotics, which are increasingly laced with fentanyl or other potent opioids.</li>
+      <li>People who become addicted or reliant on opioid medication fear social stigma and use more due to isolation.</li>
+      <li>Tapering medication is key, but many doctors have taken to rapidly reducing patient dosages, leading to withdrawl symptoms.</li>
+    </ol>
+</section>
+
+<figure class="med page-margin">
+    <img src={{ "/images/opioid/opioid-research-cards.jpg" | url }} loading="lazy" alt="sticky notes posted on a wall arranged in a T shape">
+</figure>
+
+<section class="page-margin contained">
+    <h2>Ideation</h2>
+    <p>While unpacking the problem, I interjected 2 rounds of 5-minute ideation, quickly writing all the ideas that came to mind on sticky notes. Timeboxing this process helped me freely generate solutions. Also knowing I had more than one brainstorm session liberated me to jot down possibilities I wanted to research further.</p>
+    <p>All of these went up on a wall so I could have a holistic view of how I interpreted the problem. After my second ideation round, I loosely grouped all the ideas and then eliminated any I felt weren’t achievable in this 10-hour exercise.</p>
+    <p>To narrow down which concept I’d design out, I dug deeper into the pain points and motivations of an eventual user.</p>
+</section>
+
+<figure class="med page-margin">
+   <img src={{ "/images/opioid/opioid-ideation-cards.jpg" | url }} loading="lazy" alt="sticky notes with ideas written on them posted on a wall">
+</figure>
+
+<section class="page-margin contained">
+    <h2 id="user-research">User research</h2>
+    <p>In lieu of diary studies, contextual observation, and direct user interviews, I took to YouTube and watched dozens of news segments, TED talks, and investigative spotlights featuring a mixture of people either battling opioid addiction or living with its effects. News articles and blog posts were also referenced.</p>
+    <p>While by no means a substitute for talking with real people when creating an actual product, these sources served as a way understand who might benefit from my chosen solution given the abbreviated timeline.</p>
+    <p>These learnings were then synthesized into a proto-persona that I used as my lens for determining which concept I’d selected based on it’s potential impact.</p>
+</section>
+
+<figure class="med page-margin">
+    <img class="border" src={{ "/images/opioid/opioid-persona.jpg" | url }} loading="lazy" alt="persona details for Trevor, a 42-year-old property manager who wants to reduce or eliminate his dependency on opioid prescriptions.">
+    <figcaption class="caption small-text-14 mono">Proto persona of Trevor, a 42-year-old property manager who wants to reduce or eliminate his dependency on opioid prescriptions.</figcaption>
+</figure>
+
+<section class="page-margin contained">
+    <span class="small-text-14 mono eyebrow">Proposed Solution</span>
+    <h2 id="interactive-design">A truly conversational UI</h2>
+    <p>Questionnaires are one way health care professionals can assess whether someone is at risk for substance abuse. But often these are self-administered and can take a while to complete. It’s also typical for patients to provide their answers while in a crowded office lobby or a busy ER – distracting, agitating environments.</p>
+    <p>Cognitive Behavioral Therapy has also shown positive results in helping manage chronic pain, yet a shortage of mental health workers remains a problem, as does universal access to this type of care.</p>
+    <p>To combat this, we could offer assistance in the form of a voice-driven, AI mobile app centered around natural language interactions. Assessments could be done privately at home or in another familiar setting to help diminish patient anxiety and subdue stimga. Meanwhile, leaning into the conversational nature of these experiences would provide support, encouragement, and a lasting connection.</p>
+</section>
+
+<section class="page-margin contained">
+    <span class="small-text-14 mono eyebrow">Process</span>
+    <h2>Mapping &amp; sketching the experience</h2>
+    <p>I began hashing out the intial onboarding process since I envisioned user responses affecting the subsequent taper plan. Parts of that experience would also be repeated as daily or weekly check-ins.</p>
+    <p>I wanted the interaction to feel like a conversation but still provide familiar usability cues. Aside from a visual representation of the AI voice assistant, there needed to be a way for users to read the infromation spoken to them, see their response translated to text, and provide alternative ways to answer questions.</p>
+    <p>The taper plan portion would be the main dashboard where users could see possible trends, progress, and history. Ideally, people will communicate with the app daily and be notified of progress or potential red flags as they try to wean off their medication.</p>
+</section>
+
+<figure class="large page-margin">
+     <img src={{ "/images/opioid/opioid-sketches.jpg" | url }} loading="lazy" alt="sketches of a future app interface and various screens">
+     <figcaption class="caption small-text-14 mono">Early sketches of key screens people would need to communicate with the app &amp; monitor their taper program.</figcaption>
+</figure>
+
+<section class="page-margin contained">
+    <h2>Scriptwriting</h2>
+    <p>Instead of filling out a long form, it’d be better for users to begin building a rapport by having a conversation. What would that sound like? How can we prevent the dialogue from feeling one-sided and robotic? To capture how these interactions might play out, I wrote a script, using questions from the Screener and Opioid Assessment for Patients with Pain- Revised (SOAPP-R) tool, rewriting them to add empathy along the way.</p>
+</section>
+
+<section class="terminal page-margin">
+    <ul class="qa-list">
+        <li>What is your current pain level on a scale from 1 to 10?</li>
+        <li>I’m at a 7</li>
+        <li>I’m sorry to hear that. What happened that led to so much pain?</li>
+        <li>I fell off a ladder while cleaning my gutters and broke my back</li>
+        <li>That sounds terrible. I’m glad you’re all right now. How long ago was that?</li>
+        <li>About 5 weeks ago.</li>
+        <li>And you’ve been taking pain medication since then?</li>
+        <li>Yeah.</li>
+        <li>How much are you taking now?</li>
+        <li>2 10-milligram pills every 4 hours</li>
+        <li>When was the last time you took your medication?</li>
+        <li>About 3 hours ago.</li>
+        <li>It’s understandable then that you’re starting to feel a bit more pain. On average, how much has your pain affected your daily activities today a scale of 1 to 10?</li>
+        <li>I’d say 5</li>
+        <li>Would you say your pain affects how much you enjoy life throughout the day?</li>
+        <li>Sometimes</li>
+        <li>How would you rate it on a scale of 1 to 10?</li>
+        <li>Probably 6.</li>
+        <li>How does your pain make you feel about life?</li>
+        <li>What do you mean?</li>
+        <li>Does living with pain make you feel sad or angry?</li>
+    </ul>
+</section>
+
+<section class="page-margin contained">
+    <h2 id="wireframing">Wireframes &amp; low-fidelity comps</h2>
+    <p>Wireframes or grayscale comps are where I typically work out spacing, typographic heirarchy, and visualizing any data. I advocate for using real content in the wireframing process because it makes it clear to everyone what the primary actions will be. I’ll generally pull copy from existing sources when available or use content from a competitor’s service.</p>
+    <p>Since I’d typed up a script and had a mildly detailed persona, I was able to write my own content without much difficulty. I mocked up as series of screens as well as one-off feature ideas to give me a wide canvas for when I dive into the UI, ensuring I am consistent.</p>
+</section>
+
+<figure class="med page-margin">
+   <img src={{ "/images/opioid/opioid-wireframes.jpg" | url }} loading="lazy" alt="grayscale wireframes showing charts, graphs, and voice interface screens in more fidelity">
+   <figcaption class="caption small-text-14 mono">Grayscale wireframes help me nail layout, hierarchy, and data visualization early on by using real (or close-to-real) content to focus on key interactions.</figcaption>
+</figure>
+
+<section class="page-margin contained">
+    <h2 id="ui-design">Firming up the UI</h2>
+    <p>I tend to move onto fonts, colors, and imagery once I’ve wireframed the general layout for all the major screens in a flow. This keeps my focus on specific areas of the design, although I’ll usually revisit the layout during this process as well.</p>
+    <p>I wanted the look of the app to match the conversational tone the AI would have. Rounding a lot of corners helped achieve the helpful, friendly vibe I aimed for. I chose a monochromatic purple palette because purple is stimulating like red but calming like blue. Purple conveys compassion, spirituality, wisdom, and authority – attributes that perfeclty align with my intentions for the concept.</p>
+    <p>Purple also connotes luxury, and I hoped that even if people spent as little as 3 minutes on the app, it would make them feel special and cared for. </p>
+</section>
+
+<figure class="large three-imgs page-margin">
+    <img class="border" src={{ "/images/opioid/opioid-app-dashboard.jpg" | url }} loading="lazy" alt="main dashboard for the app showing prescription infromation and taper schedule">
+    <img class="border" src={{ "/images/opioid/opioid-app-pain.jpg" | url }} loading="lazy" alt="a sliding input field for users to manually record their pain level">
+    <img class="border" src={{ "/images/opioid/opioid-app-progression.jpg" | url }} loading="lazy" alt="charts showing recent self-reported pain and activity levels">
+    <figcaption class="caption small-text-14 mono">Rather than mimicing sterile medical or insurance apps, the polished design is meant to feel calm, caring, and conversational – inviting people into a space that feels both helpful &amp; personal.</figcaption>
+</figure>
+
+<section class="page-margin contained">
+    <h2 id="prototyping">Prototyping the experience</h2>
+    <p>As of this writing, Adobe XD is one of the better prototyping platforms that let designers use voice commands to trigger a change in screens. It also offers audio playback that feels and sounds similar to Siri, Alexa, and Cortana.</p>
+    <p>These features made Adobe XD the perfect tool for not only building out the screens but also the interactive prototype that really gives audiences a sense of how this app would function in the real world.</p>
+</section>
+
+<section class="page-margin contained">
+    <span class="small-text-14 mono eyebrow">Reflections &amp; Learnings</span>
+    <h2>What I liked</h2>
+    <p>Rarely have I been on a project where the solution hasn’t already been top of mind. In confronting this broader problem, I had a chance to avoid preconceoved conclusions and the anchors that accompany them.</p>
+    <p>Though I started my 10-hour timer after I’d learned about the problem and settled on an idea, I don’t think I would have come up with the same one had I been given more specific constraints. Starting with such a high-level view allowed me to discern where the most impact could be made.</p>
+    <h2>What I learned</h2>
+    <p>Having little time forced me to be hyperfocused on the final deliverable – a useable tool someone would value. Midway through, the goal turned from making a set of screens into creating a prototype that could be tested with potential users to gain feedback. Talking to a phone app seemed to need the most validation.</p>
+    <p>It was one thing to design some screens to illustrate an idea. It was another thing entirely to turn them into something interactive that could jumpstart conversations with people in order to develop a minimum viable product (MVP).</p>
+    <p>While the taper plan tool could operate on it’s own by letting someone plug in their number manually, the CBT aspect would seem to have deeper meaning and increase usage.</p>
+    <h2>What I lacked</h2>
+    <p>Though my solution centers around voice technology and AI, I have little background or understanding of what is acheivable. This is where I made a lot of assumptions around the intelligence or machine learning and digital assistance. I've since done some research for proof-of-concept projects utilizing voice interfaces, which I find very interesting. However, the timeframe and goal for this exercise put tech investigations on the back burner.</p>
+    <h2>What I longed for</h2>
+    <p>I am accustomed to having a dev resource around to ask questions when I get stuck or want to understand something, but I had to fend for myself in this instance. However, this pushed me to forge ahead and document my questions and assumptions for reference later. While I tend to make sure I am solving a problem appropriately, this was a time where questioning impeded progress. Speed to value was the ultimate deliverable.</p>
+</section>

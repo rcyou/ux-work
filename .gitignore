@@ -1,0 +1,10 @@
+# Dependencies
+/node_modules
+
+# Protected
+_site/protected
+
+# Misc
+npm-debug.log
+.env
+.DS_Store 
