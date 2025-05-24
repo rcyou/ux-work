@@ -2,7 +2,7 @@
 /node_modules
 
 # Protected
-_site/protected
+docs/protected
 
 # Misc
 npm-debug.log

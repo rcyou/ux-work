@@ -1,0 +1,37 @@
+---
+layout: layouts/tpl.liquid
+seoTitle: Welcome!
+metaDescription: Ryan Young is a UX design leader in Des Moines, Iowa. Ryan is currently Sr. Director of Product Design at a software consultancy called P3+Uplift.
+pageKey: home
+primaryTitle: Ryan Young
+personalDescription: Ready to help teams &amp; business leaders turn big ideas into user-centered products.
+---
+<section id="lede" class="page-margin">
+	<h1 >
+		{{ primaryTitle }}
+		<span>{{ personalDescription }}</span>
+	</h1>
+</section>
+
+{% include "./partials/project-list.liquid" %}
+
+<section id="testimonials" class="page-margin contained">
+    <figure class="testimonial">
+    	<blockquote>
+    		“Ryan has a human-centered approach to his problem solving, deftly bridging the needs of customers with the needs of a high performing technical team.”
+    	</blockquote>
+    	<figcaption>
+    		<img src="{{ '/images/testimonials/jharr.jpg' | url }}" loading="lazy">
+    		<cite class="attestant-details">
+    			<span class="attestant-name">
+    				Jeremy Harrington
+    			</span>
+    			<span class="attestant-role">
+    				AVP at Principal Financial Group
+    			</span>
+    		</cite>
+    	</figcaption>
+    </figure>
+</section>
+
+{% include "./partials/podcasts.liquid" %}
