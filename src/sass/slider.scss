@@ -1,0 +1,120 @@
+@charset "UTF-8";
+@use 'partials/variables' as *;
+
+.swiper {
+    width: 100%;
+    ul {
+        list-style: none;
+        margin: 0;
+
+        li { margin: 0; }
+    }
+}
+
+/* Arrows */
+
+.swiper-button-prev,
+.swiper-button-next {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    height: 5rem;
+    width: 5rem;
+    line-height: 0;
+    font-size: 0;
+    cursor: pointer;
+    background: rgba($c_black, 0.35);
+    color: $c_white;
+    top: 50%;
+    transform: translate(0, -25%);
+    padding: 0;
+    border: none;
+
+    &:hover,
+    &:focus {
+        background: rgba($c_black, 0.85);
+
+        &:after {
+            opacity: 1;
+        }
+    }
+
+    &:focus {
+        outline-width: 2px;
+        outline-offset: .4rem;
+    }
+
+    &:after {
+        font-family: 'Material Icons';
+        font-size: 3rem;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+}
+
+.swiper-button-prev {
+    left: 0;
+
+    [dir="rtl"] & {
+        left: auto;
+        right: 0;
+    }
+
+    &:after {
+        content: "chevron_left";
+
+        [dir="rtl"] & {
+            content: "chevron_right";
+        }
+    }
+}
+
+.swiper-button-next {
+    right: 0;
+
+    [dir="rtl"] & {
+        left: 0;
+        right: auto;
+    }
+
+    &:after {
+        content: "chevron_right";
+
+        [dir="rtl"] & {
+            content: "chevron_left";
+        }
+    }
+}
+
+/* Dots */
+
+.swiper-pagination {
+    position: relative;
+
+    &.swiper-pagination-horizontal {
+        bottom: 0;
+        padding: 0.8rem 0;
+
+        .swiper-pagination-bullet {
+            width: 1.2rem;
+            height: 1.2rem;
+            background-color: transparent;
+            border: 2px solid $c_links;
+            opacity: 1;
+            margin: 0 1.6rem;
+
+            
+            &-active {
+                background-color: $c_links;
+                border: 0px solid $c_links;
+            }
+
+            &:focus,
+            &:focus-visible {
+                outline-offset: .2rem;
+                outline: 2px solid $c_links;
+            }
+        }
+    }
+}

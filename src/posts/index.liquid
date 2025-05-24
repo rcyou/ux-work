@@ -1,0 +1,21 @@
+---
+layout: layouts/blog.liquid
+seoTitle: Blog
+metaDescription: Occasional updates about what I am working on and things I have read.
+primaryTitle: Blog
+---
+<section id="lede" class="page-margin contained">
+	<h1>{{ primaryTitle }}</h1>
+    <p class="summary big-text-20">{{ metaDescription }}</p>
+    <ul id="post-list">
+    	{% for post in collections.post reversed %}
+    	<li class="post-list-item">
+    		<a href="{{post.url}}" class="post-card">
+    			<span class="post-date small-text-14 mono eyebrow">Written: {{ post.date | utcDate: 'MMMM Do, YYYY' }}</span>
+	    		<h2 class="post-title">{{ post.data.primaryTitle }}</h2>
+	    		<span class="post-description">{{ post.data.metaDescription }}</span>
+    		</a>
+		</li>
+   		{% endfor %}
+    </ul>
+</section>

@@ -1,6 +1,10 @@
-node_modules
-build
-encrypt
+# Dependencies
+/node_modules
+
+# Protected
+docs/protected
+
+# Misc
 npm-debug.log
 .env
 .DS_Store 

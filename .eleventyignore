@@ -1,0 +1,6 @@
+docs/auth/**
+
+_site
+src/auth
+src/images
+src/js
