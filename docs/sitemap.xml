@@ -1,98 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-    <url>
-      <loc>/posts/22-04-09/</loc>
-      <lastmod>2022-04-09</lastmod>
-    </url>
-  
-    <url>
-      <loc>/posts/22-04-24/</loc>
-      <lastmod>2022-04-24</lastmod>
-    </url>
-  
-    <url>
-      <loc>/posts/22-05-01/</loc>
-      <lastmod>2022-05-01</lastmod>
-    </url>
-  
-    <url>
-      <loc>/posts/22-05-08/</loc>
-      <lastmod>2022-05-08</lastmod>
-    </url>
-  
-    <url>
-      <loc>/posts/22-05-15/</loc>
-      <lastmod>2022-05-15</lastmod>
-    </url>
-  
-    <url>
-      <loc>/posts/22-05-30/</loc>
-      <lastmod>2022-05-30</lastmod>
-    </url>
-  
-    <url>
-      <loc>/posts/22-06-05/</loc>
-      <lastmod>2022-06-05</lastmod>
-    </url>
-  
-    <url>
-      <loc>/posts/22-06-19/</loc>
-      <lastmod>2022-06-19</lastmod>
-    </url>
-  
-    <url>
-      <loc>/posts/23-02-18/</loc>
-      <lastmod>2023-02-18</lastmod>
-    </url>
-  
-    <url>
-      <loc>/</loc>
-      <lastmod>2025-02-22</lastmod>
-    </url>
-  
-    <url>
-      <loc>/about/</loc>
-      <lastmod>2025-05-24</lastmod>
-    </url>
-  
-    <url>
-      <loc>/arts-festival-app/</loc>
-      <lastmod>2025-05-24</lastmod>
-    </url>
-  
-    <url>
-      <loc>/protected/</loc>
-      <lastmod>2025-05-24</lastmod>
-    </url>
-  
-    <url>
-      <loc>/dmpa-website-redesign/</loc>
-      <lastmod>2025-05-24</lastmod>
-    </url>
-  
-    <url>
-      <loc>/global-nav/</loc>
-      <lastmod>2025-05-24</lastmod>
-    </url>
-  
-    <url>
-      <loc>/grocery-wearables/</loc>
-      <lastmod>2025-05-24</lastmod>
-    </url>
-  
-    <url>
-      <loc>/opioid-prescription-app/</loc>
-      <lastmod>2025-05-24</lastmod>
-    </url>
-  
-    <url>
-      <loc>/posts/</loc>
-      <lastmod>2025-05-24</lastmod>
-    </url>
-  
-    <url>
-      <loc>/select-projects/</loc>
-      <lastmod>2025-05-24</lastmod>
-    </url>
+      <url>
+        <loc>https://ux.ryancyoung.com/posts/22-04-09/</loc><lastmod>2022-04-08</lastmod></url>
+      <url>
+        <loc>https://ux.ryancyoung.com/posts/22-04-24/</loc><lastmod>2022-04-23</lastmod></url>
+      <url>
+        <loc>https://ux.ryancyoung.com/posts/22-05-01/</loc><lastmod>2022-04-30</lastmod></url>
+      <url>
+        <loc>https://ux.ryancyoung.com/posts/22-05-08/</loc><lastmod>2022-05-07</lastmod></url>
+      <url>
+        <loc>https://ux.ryancyoung.com/posts/22-05-15/</loc><lastmod>2022-05-14</lastmod></url>
+      <url>
+        <loc>https://ux.ryancyoung.com/posts/22-05-30/</loc><lastmod>2022-05-29</lastmod></url>
+      <url>
+        <loc>https://ux.ryancyoung.com/posts/22-06-05/</loc><lastmod>2022-06-04</lastmod></url>
+      <url>
+        <loc>https://ux.ryancyoung.com/posts/22-06-19/</loc><lastmod>2022-06-18</lastmod></url>
+      <url>
+        <loc>https://ux.ryancyoung.com/posts/23-02-18/</loc><lastmod>2023-02-17</lastmod></url>
+      <url>
+        <loc>https://ux.ryancyoung.com/</loc><lastmod>2025-02-22</lastmod></url>
+      <url>
+        <loc>https://ux.ryancyoung.com/about/</loc><lastmod>2025-05-24</lastmod></url>
+      <url>
+        <loc>https://ux.ryancyoung.com/arts-festival-app/</loc><lastmod>2025-05-24</lastmod></url>
+      <url>
+        <loc>https://ux.ryancyoung.com/protected/</loc><lastmod>2025-05-24</lastmod></url>
+      <url>
+        <loc>https://ux.ryancyoung.com/dmpa-website-redesign/</loc><lastmod>2025-05-24</lastmod></url>
+      <url>
+        <loc>https://ux.ryancyoung.com/global-nav/</loc><lastmod>2025-05-24</lastmod></url>
+      <url>
+        <loc>https://ux.ryancyoung.com/grocery-wearables/</loc><lastmod>2025-05-24</lastmod></url>
+      <url>
+        <loc>https://ux.ryancyoung.com/opioid-prescription-app/</loc><lastmod>2025-05-24</lastmod></url>
+      <url>
+        <loc>https://ux.ryancyoung.com/posts/</loc><lastmod>2025-05-24</lastmod></url>
+      <url>
+        <loc>https://ux.ryancyoung.com/select-projects/</loc><lastmod>2025-05-24</lastmod></url>
 </urlset>

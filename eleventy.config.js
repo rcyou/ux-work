@@ -1,7 +1,6 @@
 const sass = require('sass');
 const path = require('node:path');
 const moment = require('moment');
-const { DateTime } = require("luxon");
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addGlobalData("rootURL", "https://ux.ryancyoung.com");
@@ -18,17 +17,6 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter("utcDate", function(value, arg) { 
     return moment(value).utc().format(arg);
-  });
-
-  eleventyConfig.addFilter("readableDate", (dateObj) => {
-    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
-      "dd LLL yyyy"
-    );
-  });
-
-  // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
-  eleventyConfig.addFilter("htmlDateString", (dateObj) => {
-    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy-LL-dd");
   });
 
 };
