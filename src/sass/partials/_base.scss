@@ -260,11 +260,16 @@ blockquote.callout {
 	color: $c_white;
 	font-family: $f_mono;
 	max-width: $mq_medium;
-	padding: 4rem;
+	padding: 2.4rem;
+
+	@media only screen and (min-width: $mq_tween) {
+		padding: 4rem;
+	}
 
 	ul {
 		line-height: 1.35;
 		list-style-position: inside;
+		margin: 0;
 
 		li {
 			display: flex;
