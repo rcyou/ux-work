@@ -1,5 +1,9 @@
 @use 'variables' as *;
 
+details summary::-webkit-details-marker {
+  display:none;
+}
+
 .work-experience {
 	padding: 2rem 0;
 	display: flex;
