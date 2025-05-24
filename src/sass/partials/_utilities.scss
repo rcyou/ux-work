@@ -112,6 +112,7 @@
 
 #home #lede {
 	max-width: 100rem;
+	width: auto;
 
 	h1 {
 		font-weight: $f_bold;
@@ -168,8 +169,13 @@ ul, ol {
 		}
 
 		&.emoji-list {
+			margin-left: 0;
 			li {
-				align-items: center;
+				align-items: flex-start;
+
+				@media only screen and (min-width: $mq_medium) {
+					align-items: center;
+				}
 				
 				&:before {
 					content: attr(data-content);
@@ -177,10 +183,15 @@ ul, ol {
 					font-family: $f_inter;
 					font-weight: $f_medium;
 					line-height: 1;
-					font-size: 4rem;
-					margin-right: 2rem;
-					width: 4rem;
-					flex: 0 0 4rem;
+					font-size: 3.2rem;
+					margin-right: 0.8rem;
+					width: 2.4rem;
+					flex: 0 0 2.4rem;
+
+					@media only screen and (min-width: $mq_medium) {
+						margin-right: 2rem;
+						font-size: 4rem;
+					}
 				}
 			}
 		}

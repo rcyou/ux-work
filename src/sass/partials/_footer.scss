@@ -5,7 +5,7 @@ footer {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	margin-top: 8rem;
+	margin-top: 6.4rem;
 	margin-bottom: 0;
 	padding:0 0 2.4rem;
 
@@ -27,7 +27,9 @@ footer {
 		font-weight: $f_semibold;
 		color: $c_drkgrey;
 		display: block;
+		line-height: 1;
 		text-align: center;
+		margin-bottom: 2.4rem;
 
 		@media only screen and (min-width: $mq_large) {
 			text-align: left;
@@ -133,8 +135,10 @@ footer {
 	color: $c_grey;
 	font-size: 1.4rem;
 	margin: 2.4rem 0 1.6rem 0;
+	text-align: center;
 
 	@media only screen and (min-width: $mq_large) {
 		margin: 0;
+		text-align: right;
 	}
 }

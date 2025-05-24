@@ -1,14 +1,10 @@
 @use 'variables' as *;
 
-details summary::-webkit-details-marker {
-  display:none;
-}
-
 .work-experience {
 	padding: 2rem 0;
 	display: flex;
 	flex-wrap: wrap;
-	gap: 1.2rem;
+	gap: 0.8rem;
 	border-bottom: 1px solid $c_super_ltgrey;
 
 	&:last-of-type { border-bottom: none; }
@@ -18,9 +14,9 @@ details summary::-webkit-details-marker {
 	.employer-role { margin: 0.4rem 0; }
 
 	.role-heading {
-		font-size: 2.4rem;
+		font-size: 2.8rem;
 		font-weight: $f_bold;
-		line-height: 1;
+		line-height: 1.25;
 	}
 
 	.business-name { line-height: 1; }
@@ -40,13 +36,17 @@ details summary::-webkit-details-marker {
 		font-weight: $f_bold;
 		position: relative;
 		padding-left: 2rem;
+		list-style: none;
 
 		&:before {
 			content: "Show";
 		}
 
-		&::marker {
+		&::marker,
+		&::-webkit-details-marker
+		 {
 		  content: "";
+		  display: none; 
 		}
 
 		&:after {
