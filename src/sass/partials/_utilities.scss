@@ -28,15 +28,8 @@
 		max-width: 66rem;
 		width: 100%;
 
-		#home & { max-width: 100%; }
+		#home & { max-width: 100rem; }
 	}
-
-	@media only screen and (min-width: $mq_large) {
-		#home & {
-			max-width: 100rem;
-			width: 100%;
-		}
-	}  
 }
 
 .large {
@@ -49,24 +42,25 @@
 	max-width: $mq_medium;
 }
 
-.small {
-	width: auto;
-	max-width: $mq_small;
+.small {	
+
+	@media only screen and (min-width: $mq_tween) {
+		max-width: $mq_small;
+	}	
 }
 
 .flex-column {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	gap: 4rem;
+	gap: 3.2rem;
 
 	@media only screen and (min-width: $mq_medium) {
-		gap: 6.4rem;
+		gap: 5.6rem;
 	}
 }
 
 #lede {
-	margin-top: 8rem;
+	margin-top: 4rem;
 
 	h1 {
 		font-weight: $f_bold;
@@ -183,14 +177,18 @@ ul, ol {
 					font-family: $f_inter;
 					font-weight: $f_medium;
 					line-height: 1;
-					font-size: 3.2rem;
-					margin-right: 0.8rem;
-					width: 2.4rem;
-					flex: 0 0 2.4rem;
+					font-size: 2.8rem;
+					margin-right: 1.6rem;
+					margin-top: 0.8rem;
+					width: 2.8rem;
+					flex: 0 0 2.8rem;
 
 					@media only screen and (min-width: $mq_medium) {
 						margin-right: 2rem;
+						margin-top: 0;
 						font-size: 4rem;
+						width: 4rem;
+						flex: 0 0 4rem;
 					}
 				}
 			}
@@ -203,6 +201,10 @@ ol.big-number-list {
   display: block;
   counter-reset: my-awesome-counter;
 
+  @media only screen and (min-width: $mq_medium) {
+  	margin-left: 0;
+  }
+
   li {
     counter-increment: my-awesome-counter;
     display: flex;
@@ -212,7 +214,7 @@ ol.big-number-list {
 		content: counter(my-awesome-counter);
 		color: $c_black;
 		font-family: $f_inter;
-		font-weight: $f_semibold;
+		font-weight: $f_bold;
 		font-size: 2.4rem;
 		margin-right: 2.4rem;
 	}

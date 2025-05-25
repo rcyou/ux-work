@@ -4,23 +4,25 @@
 	list-style: none;
 	margin: 0;
 	padding: 2.4rem 0;
+	width: 100%;
 	display: flex;
 	flex-direction: column;
-	gap: 2rem;
+	gap: 2rem; 
 
 	@media only screen and (min-width: $mq_medium) {
 		flex-direction: row;
-		flex-wrap: wrap;
 		justify-content: space-between;
 	}
 
 	li {
-		flex: 1 1 50%;
 		margin-bottom: 0;
+		flex: 1 0 100%;
 
 		@media only screen and (min-width: $mq_medium) {
 			flex: 1 1 calc(50% - 1rem);
 		}
+
+		iframe { display: block; }
 	}
 }
 
