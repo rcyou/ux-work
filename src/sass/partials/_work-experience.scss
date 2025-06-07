@@ -74,6 +74,18 @@
 			transform: rotate(-225deg) translate(-25%, 0%);
 		}
 	}
+
+	h4 {
+		margin: 0.8rem 0 0 0;
+	}
+
+	h5 {
+		font-size: 1.6rem;
+		font-weight: $f_bold;
+		margin-top: 1.6rem
+	}
+
+	h5 + p { margin-top: 0; }
 }
 
 .employer-role,
