@@ -76,6 +76,8 @@
 	&-20 {
 		font-size: 2rem;
 		font-weight: $f_normal;
+
+		& a { font-weight: $f_bold; }
 	}
 }
 
