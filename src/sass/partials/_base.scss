@@ -24,9 +24,11 @@ body {
 
 a {
 	text-decoration-style: dotted;
-	text-underline-offset: 1.5px;
+	text-decoration-line: underline;
+	text-underline-offset: 3px;
+	text-decoration-thickness: 1px;
 	color: $c_links;
-	font-weight: bold;
+	font-weight: $f_semibold;
 
 	&:hover,
 	&:focus {

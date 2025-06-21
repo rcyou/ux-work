@@ -35,6 +35,12 @@
 		}
 	}
 
+	.cta-btn {
+		&:hover, &:focus {
+			color: $c_drkgrey;
+		}
+	}
+
 }
 
 .attestant-details {

@@ -26,6 +26,7 @@
   transform: translate(0, -25%);
   padding: 0;
   border: none;
+  transition: all ease-in-out 150ms;
 }
 .swiper-button-prev:hover, .swiper-button-prev:focus,
 .swiper-button-next:hover,
@@ -36,6 +37,10 @@
 .swiper-button-next:hover:after,
 .swiper-button-next:focus:after {
   opacity: 1;
+}
+.swiper-button-prev:active,
+.swiper-button-next:active {
+  background: #101828;
 }
 .swiper-button-prev:focus,
 .swiper-button-next:focus {
@@ -94,6 +99,9 @@
   border: 2px solid #2104C3;
   opacity: 1;
   margin: 0 1.6rem;
+  transition: all ease-out 100ms;
+  outline-offset: 0rem;
+  outline: 0px solid #2104C3;
 }
 .swiper-pagination.swiper-pagination-horizontal .swiper-pagination-bullet-active {
   background-color: #2104C3;
@@ -104,4 +112,4 @@
   outline: 2px solid #2104C3;
 }
 
-/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../src/sass/slider.scss%22,%22../../src/sass/partials/_variables.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAGA;EACI;;AACA;EACI;EACA;;AAEA;EAAK;;;AAIb;AAEA;AAAA;EAEI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA,OCnBM;EDoBN;EACA;EACA;EACA;;AAEA;AAAA;AAAA;EAEI;;AAEA;AAAA;AAAA;EACI;;AAIR;AAAA;EACI;EACA;;AAGJ;AAAA;EACI;EACA;EACA;EACA;EACA;;;AAIR;EACI;;AAEA;EACI;EACA;;AAGJ;EACI;;AAEA;EACI;;;AAKZ;EACI;;AAEA;EACI;EACA;;AAGJ;EACI;;AAEA;EACI;;;AAKZ;AAEA;EACI;;AAEA;EACI;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;EACA;;AAGA;EACI,kBC7FN;ED8FM;;AAGJ;EAEI;EACA%22,%22file%22:%22slider.css%22%7D */
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../src/sass/slider.scss%22,%22../../src/sass/partials/_variables.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAGA;EACI;;AACA;EACI;EACA;;AAEA;EAAK;;;AAIb;AAEA;AAAA;EAEI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA,OCnBM;EDoBN;EACA;EACA;EACA;EACA;;AAEA;AAAA;AAAA;EAEI;;AAEA;AAAA;AAAA;EACI;;AAIR;AAAA;EACI;;AAGJ;AAAA;EACI;EACA;;AAGJ;AAAA;EACI;EACA;EACA;EACA;EACA;;;AAIR;EACI;;AAEA;EACI;EACA;;AAGJ;EACI;;AAEA;EACI;;;AAKZ;EACI;;AAEA;EACI;EACA;;AAGJ;EACI;;AAEA;EACI;;;AAKZ;AAEA;EACI;;AAEA;EACI;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAGA;EACI,kBCrGN;EDsGM;;AAGJ;EAEI;EACA%22,%22file%22:%22slider.css%22%7D */

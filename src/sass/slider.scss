@@ -29,6 +29,7 @@
     transform: translate(0, -25%);
     padding: 0;
     border: none;
+    transition: all ease-in-out 150ms;
 
     &:hover,
     &:focus {
@@ -37,6 +38,10 @@
         &:after {
             opacity: 1;
         }
+    }
+
+    &:active {
+        background: rgba($c_black, 1.0);
     }
 
     &:focus {
@@ -103,6 +108,9 @@
             border: 2px solid $c_links;
             opacity: 1;
             margin: 0 1.6rem;
+            transition: all ease-out 100ms;
+            outline-offset: 0rem;
+            outline: 0px solid $c_links;
 
             
             &-active {

@@ -1,5 +1,39 @@
 @use 'variables' as *;
 
+.emoji {
+	line-height: 1;
+	display: inline-block;
+}
+
+.material-icons {
+	vertical-align: top;
+	display: inline-block;
+}
+
+.cta-btn {
+	font-size: 1.8rem;
+	font-family: $f_inter;
+	font-weight: $f_semibold;
+	border: none;
+	background-color: transparent;
+	color: $c_links;
+	border-radius: 0.5rem;
+	padding: 1.6rem 2.4rem;
+	line-height: 1.25;
+			
+		&:before {
+			content: "arrow_forward";
+			font-family: 'Material Icons';
+			font-size: 2.1rem;
+			font-weight: $f_normal;
+			line-height: 0;
+			vertical-align: sub;
+			margin-right: 0.4rem;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+		}
+}
+
 .page-margin {
 	margin-right: 1.6rem;
 	margin-left: 1.6rem;
@@ -19,6 +53,11 @@
 	margin: 0;
 
 	& img { width: 100%; }
+}
+
+.no-padding {
+	&-l { padding-left: 0; }
+	&-r { padding-right: 0; }
 }
 
 .contained {
@@ -77,7 +116,7 @@
 		font-size: 2rem;
 		font-weight: $f_normal;
 
-		& a { font-weight: $f_bold; }
+		& a { font-weight: $f_semibold; }
 	}
 }
 
@@ -249,25 +288,4 @@ ol.big-number-list {
 			line-height: 1;
 		}
 	}
-}
-
-.emoji {
-	line-height: 1;
-	display: inline-block;
-}
-
-.material-icons {
-	vertical-align: top;
-	display: inline-block;
-}
-
-.cta-btn {
-	font-size: 1.8rem;
-	font-family: $f_inter;
-	font-weight: $f_semibold;
-	border: none;
-	background-color: transparent;
-	color: $c_links;
-	border-radius: 0.5rem;
-	padding: 1.6rem 2.4rem;
 }
