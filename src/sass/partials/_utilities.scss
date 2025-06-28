@@ -60,6 +60,11 @@
 	&-r { padding-right: 0; }
 }
 
+.spacing {
+	&-top { margin-top: 2rem; }
+	&-bottom { margin-bottom: 2rem; }
+}
+
 .contained {
 	max-width: 100%;
 	
