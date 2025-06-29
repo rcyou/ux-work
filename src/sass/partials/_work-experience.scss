@@ -4,12 +4,15 @@
 	padding: 2rem 0;
 	display: flex;
 	flex-wrap: wrap;
-	gap: 0.8rem;
+	gap: 2rem;
 	border-bottom: 1px solid $c_super_ltgrey;
 
 	&:last-of-type { border-bottom: none; }
 
-	.timeframe { flex: 1 1 100%; }
+	.timeframe {
+		flex: 1 1 100%;
+		line-height: 1;
+	}
 
 	.employer-role { margin: 0.4rem 0; }
 
