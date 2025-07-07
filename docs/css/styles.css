@@ -1164,7 +1164,7 @@ a:focus-visible #fable #indigo, a:hover #fable #indigo {
   font-weight: 700;
   line-height: 1;
   position: relative;
-  padding-left: 2.4rem;
+  padding: 0.4rem 0 0.4rem 2.4rem;
   list-style: none;
 }
 .work-experience summary:before {
@@ -1194,7 +1194,7 @@ a:focus-visible #fable #indigo, a:hover #fable #indigo {
 }
 .work-experience details[open] summary:after {
   transform: rotate(135deg) translate(50%, -50%);
-  top: 65%;
+  top: 55%;
   transition: all 700ms cubic-bezier(0.25, 1, 0.3, 1);
 }
 .work-experience h4 {
