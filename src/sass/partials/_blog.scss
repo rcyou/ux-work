@@ -40,6 +40,20 @@
 	.post-title {
 		margin-bottom: 1.6rem;
 	}
+
+	ul {
+		margin-top: 2.4rem;
+		margin-bottom: 2.4rem;
+
+		li {
+			margin-bottom: 0.8rem;
+			&:has(p) {
+				margin-bottom: 2.4rem;
+				
+				p { margin-top: 0.8rem; }
+			}
+		}
+	}
 }
 
 h2 + h3 {
