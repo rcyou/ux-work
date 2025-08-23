@@ -123,9 +123,21 @@
 
 		& a { font-weight: $f_semibold; }
 	}
+
+	&-24 {
+		font-size: 2.4rem;
+		font-weight: $f_normal;
+
+		& a { font-weight: $f_semibold; }
+	}
 }
 
 .small-text {
+	&-12 {
+		font-size: 1.2rem;
+		font-weight: $f_normal;
+		color: $c_grey;
+	}
 
 	&-14 {
 		font-size: 1.4rem;
@@ -133,8 +145,8 @@
 		color: $c_grey;
 	}
 
-	&-12 {
-		font-size: 1.2rem;
+	&-16 {
+		font-size: 1.6rem;
 		font-weight: $f_normal;
 		color: $c_grey;
 	}

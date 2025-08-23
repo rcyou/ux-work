@@ -8,9 +8,9 @@ ogImagePath: '/images/bore/og-image-bore.jpg'
 ---
 <section id="lede" class="page-margin contained">
     <h1>{{ primaryTitle }}</h1>
-    <p class="big-text-20 summary">{{ metaDescription }}</p>
+    <p class="big-text-24 summary">{{ metaDescription }}</p>
     <div class="summary-list">
-        <span class="small-text-14 mono eyebrow">Team</span>
+        <span class="small-text-16 mono eyebrow">Team</span>
         <ul class="bullet-list">
             <li>Product Owner</li>
             <li>Tech Lead</li>
@@ -20,7 +20,7 @@ ogImagePath: '/images/bore/og-image-bore.jpg'
             <li>UX Designer (Me)</li>
     </div>
     <div class="summary-list">
-        <span class="small-text-14 mono eyebrow">Role & Activities</span>
+        <span class="small-text-16 mono eyebrow">Role & Activities</span>
         <ul class="bullet-list">
             <li><a href="#user-research">User Research</a></li>
             <li><a href="#wireframing">Wireframing</a></li>
@@ -54,7 +54,7 @@ ogImagePath: '/images/bore/og-image-bore.jpg'
 </div>
 
 <section class="page-margin contained">
-    <span class="small-text-14 mono eyebrow">Challenge</span>
+    <span class="small-text-16 mono eyebrow">Challenge</span>
     <h2>How might we help directional drillers get back on plan when they accidentally veer off course?</h2>
     <p>Horizontal directional drilling (HDD) or directional boring is something you may have  seen but never paid much attention to. It’s a method of installng underground utilities without needing to dig a trench or pathway to place the cables or pipe.</p>
     <p>In it’s simplest form, there are as few as  two crew members – one on the drill rig forcing large rods into the Earth to create a hole, and one out in front with something that looks like a metal detector, which is able to tell where the drill head is underground. This last person is called a locator, and they relay the information about the drill head to the drill operator in order to steer and create the hole.</p>
@@ -64,7 +64,7 @@ ogImagePath: '/images/bore/og-image-bore.jpg'
 <figure class="large double-img page-margin">
     <img class="border" src={{ "/images/bore/boreassist-screen.jpg" | url }} loading="lazy"alt="original on-rig interface showing a bore plan, drill head position, and machine-related information">
     <img class="border" src={{ "/images/bore/boreassist-on-rig.jpg" | url }} loading="lazy" alt="the original on-rig interface shown on a small digital screen installed on a drill rig">
-    <figcaption class="caption small-text-14 mono">Examples of the embedded app interface prior to our work on the project.</figcaption>
+    <figcaption class="caption small-text-16 mono">Examples of the embedded app interface prior to our work on the project.</figcaption>
 </figure>
 
 <section class="page-margin contained">
@@ -72,7 +72,7 @@ ogImagePath: '/images/bore/og-image-bore.jpg'
 </section>
 
 <section class="page-margin contained">
-    <span class="small-text-14 mono eyebrow">Research</span>
+    <span class="small-text-16 mono eyebrow">Research</span>
     <h2>Unpacking the problem</h2>
     <p>We were first given a wish list of sorts that contained a mix of existing and new software features, including an auto-correct feature aimed at helping drillers get back on their planned path.</p>
     <p>In order to learn more about the problem domain, and, more importantly, understand the perceived user value behind these features, we spent the first 2 weeks conducting remote stakeholder interviews. Specifically, we spoke with people on the company's commercialization team who had frequent first-hand experience with customers and an understanding of the software.</p>
@@ -107,11 +107,11 @@ ogImagePath: '/images/bore/og-image-bore.jpg'
 <figure class="large double-img page-margin">
     <img class="border" src={{ "/images/bore/journey-board-nightmare.jpg" | url }} loading="lazy" alt="a Candyland-style customer journey map detailing a nightmarish drill job under a large canal">
     <img class="border" src={{ "/images/bore/journey-board-easy.jpg" | url }} loading="lazy" alt="a Candyland-style customer journey map completed during an interview with a driller about an easy gas line project">
-    <figcaption class="caption small-text-14 mono">We created Candyland-style journey maps to fill in various plot points as drillers told us about complex &amp; challenging drilling jobs during discovery interviews.</figcaption>
+    <figcaption class="caption small-text-16 mono">We created Candyland-style journey maps to fill in various plot points as drillers told us about complex &amp; challenging drilling jobs during discovery interviews.</figcaption>
 </figure>
 
 <section class="page-margin contained">
-    <span class="small-text-14 mono eyebrow">Process</span>
+    <span class="small-text-16 mono eyebrow">Process</span>
     <h2 id="wireframing">Wireframing the interface</h2>
     <p>Armed with the context of how drill crews perform their jobs and analyze problems, I began blocking out various screens in Adobe XD. Our client was already adopting Google’s Material Design language for many of it’s newer apps and websites, so I used the Google guidelines and patterns for a first pass through the key features we were working on.</p>
     <p>Our team had access to a rugged PC setup identical to what is mounted on a rig, and I was able to use the touch screen as a second monitor to display the wireframes and grayscale screens so that we could test font size, contrast, target area, and overall layout.</p>
@@ -142,7 +142,7 @@ ogImagePath: '/images/bore/og-image-bore.jpg'
 
 <figure class="med page-margin">
     <img src={{ "/images/bore/bore-device-outside.jpg" | url }} loading="lazy" alt="tbd">
-    <figcaption class="caption small-text-14 mono">Creating a new bore plan outside with the screen display at 100 percent brightness.</figcaption>
+    <figcaption class="caption small-text-16 mono">Creating a new bore plan outside with the screen display at 100 percent brightness.</figcaption>
 </figure>
 
 <section class="page-margin contained">
@@ -168,7 +168,7 @@ ogImagePath: '/images/bore/og-image-bore.jpg'
 </section>
 
 <section class="page-margin contained">
-    <span class="small-text-14 mono eyebrow">Outcome</span>
+    <span class="small-text-16 mono eyebrow">Outcome</span>
     <h2 id="ui-design">Going full bore</h2>
     <p>Not only is the new embedded app branded and better organized visually, it also gives users the freedom to create a bore plan directly on the drill. User can edit imported or locally-created plans if they happen to run into issues during execution, then they can be exported onto a portable USB drive and added to printed project reports or other deliverables once the work is complete.</p>
     <p>We also leverage a lot of the same information this equipment manufacturing company requests from users in the Projects web app around materials and hardware, which allows the system to make quick calculations, which were previously done manually by the driller or another crew member. Overall, the goal was to lower the barrier to entry for smaller crews who may not have access to the same resources available to larger companies.</p>
@@ -193,7 +193,7 @@ ogImagePath: '/images/bore/og-image-bore.jpg'
 </figure>
 
 <section class="page-margin contained">
-    <span class="small-text-14 mono eyebrow">Reflections &amp; Learnings</span>
+    <span class="small-text-16 mono eyebrow">Reflections &amp; Learnings</span>
     <h2>What I liked</h2>
     <p>Emebedded apps were a new frontier for me. I’d mostly designed several web systems leading up to this project, so I enjoyed exploring a different platform and understanding what the possibilities and constraints were when crafting a new UI. Having collaborative teammates also help – especially when they ran into issues and we were able to research and talk through what would be possible to achieve the most desirable experience.</p>
     <h2>What I learned</h2>
