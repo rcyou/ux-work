@@ -154,13 +154,13 @@
 
 .mono {
 	font-family: $f_mono;
+}
 
-	&.eyebrow {
+.eyebrow {
 		display: block;
 		margin-bottom: 1.2rem;
 		line-height: 1;
 	}
-}
 
 #home #lede {
 	max-width: 100rem;
