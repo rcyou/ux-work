@@ -1404,17 +1404,17 @@ a:focus-visible #fable #indigo, a:hover #fable #indigo {
 #blog .post-title {
   margin-bottom: 1.6rem;
 }
-#blog ul {
+#blog main h1 ~ ul {
   margin-top: 2.4rem;
   margin-bottom: 2.4rem;
 }
-#blog ul li {
-  margin-bottom: 0.8rem;
+#blog main h1 ~ ul li {
+  margin-bottom: 1.6rem;
 }
-#blog ul li:has(p) {
+#blog main h1 ~ ul li:has(p) {
   margin-bottom: 2.4rem;
 }
-#blog ul li:has(p) p {
+#blog main h1 ~ ul li:has(p) p {
   margin-top: 0.8rem;
 }
 

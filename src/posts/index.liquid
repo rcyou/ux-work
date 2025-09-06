@@ -5,18 +5,17 @@ metaDescription: Occasional updates about what Ryan is working on and things he 
 primaryTitle: Blog
 redirect_from: /posts.html
 ---
-<section id="lede" class="contained">
-	<h1>{{ primaryTitle }}</h1>
-    <p class="summary big-text-20">Occasional updates about what I am working on and things I have read, including books and articles. All thoughts and opinions expressed are my own — not of my employer or anyone else I work with.</p>
-    <ul id="post-list">
-    	{% for post in collections.post reversed %}
-    	<li class="post-list-item">
-    		<a href="{{post.url}}" class="post-card">
-    			<span class="post-date small-text-14 mono eyebrow">Written: {{ post.date | utcDate: 'MMMM Do, YYYY' }}</span>
-	    		<h2 class="post-title">{{ post.data.primaryTitle }}</h2>
-	    		<span class="post-description">{{ post.data.metaDescription }}</span>
-    		</a>
-		</li>
-   		{% endfor %}
-    </ul>
-</section>
+
+<h1>{{ primaryTitle }}</h1>
+<p class="summary big-text-20">Occasional updates about what I am working on and things I have read, including books and articles. All thoughts and opinions expressed are my own — not of my employer or anyone else I work with.</p>
+<ul id="post-list">
+	{% for post in collections.post reversed %}
+	<li class="post-list-item">
+		<a href="{{post.url}}" class="post-card">
+			<span class="post-date small-text-14 mono eyebrow">Written: {{ post.date | utcDate: 'MMMM Do, YYYY' }}</span>
+    		<h2 class="post-title">{{ post.data.primaryTitle }}</h2>
+    		<span class="post-description">{{ post.data.metaDescription }}</span>
+		</a>
+	</li>
+		{% endfor %}
+</ul>

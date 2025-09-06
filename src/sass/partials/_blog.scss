@@ -41,12 +41,12 @@
 		margin-bottom: 1.6rem;
 	}
 
-	ul {
+	main h1 ~ ul {
 		margin-top: 2.4rem;
 		margin-bottom: 2.4rem;
 
 		li {
-			margin-bottom: 0.8rem;
+			margin-bottom: 1.6rem;
 			&:has(p) {
 				margin-bottom: 2.4rem;
 				
