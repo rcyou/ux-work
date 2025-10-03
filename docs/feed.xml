@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xml:base="https://ux.ryancyoung.com/">
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xml:base="https://ux.ryancyoung.com/">
   <channel>
     <title>Ryan Young's blog about UX, leadership, and life</title>
     <link>https://ux.ryancyoung.com/</link>
+    <atom:link href="https://ux.ryancyoung.com/feed.xml" rel="self" type="application/rss+xml" />
     <description>Occasional updates about what I am working on, reading, and thinking about.</description>
     <language>en</language>
     
