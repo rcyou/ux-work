@@ -1,7 +1,7 @@
 ---
 layout: layouts/blog.liquid
 seoTitle: Parenting isn’t a KPI
-metaDescription: Parenting, and the realities of working in design or product, remind us that progress often comes from invisible work. Here’s why metrics don’t tell the whole story.
+metaDescription: Parenting reminds us that progress often comes from invisible work, and why metrics don’t tell the whole story.
 primaryTitle: Parenting isn’t a KPI. Neither is good design.
 date: 2025-09-29
 volume: 2
@@ -13,7 +13,7 @@ tags: post
 
 # {{ primaryTitle }}
 
-_<b>Note:</b> This post originally <a href="https://www.linkedin.com/posts/rcyou_parenting-hiring-metrics-activity-7378514284210941952-aMmC" target="_blank">appeared on LinkedIn on September 29, 2025</a>. But I've reposted it here so it has a permanent home outside the feed._
+_**Note:** This post originally <a href="https://www.linkedin.com/posts/rcyou_parenting-hiring-metrics-activity-7378514284210941952-aMmC" target="_blank">appeared on LinkedIn on September 29, 2025</a>. But I've republished it here so it has a permanent home outside the feed._
 
 <figure class="large spacing-top">
     <img class="border" src="{{'/images/blog/parenting-metrics.jpg' | url }}" alt="A fake role on LinkedIn listing parenting as a job. Caregiver 2 (Preschool): Actively driving early development initiatives, optimizing daily workflows, and fostering skill acquisition. Achieved 100% proficiency in alphabet recognition Recently improved numeracy engagement by 68%. Skills applied: Emotional Intelligence (EQ) coaching, Talent Development & Training, and +3 skills">
