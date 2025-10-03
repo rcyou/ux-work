@@ -16,6 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-plugin-rss": "^2.0.4",
     "@11ty/eleventy-server-browsersync": "^1.0.2",
     "moment": "^2.30.1",
     "staticrypt": "^3.5.3"

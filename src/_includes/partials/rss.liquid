@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xml:base="{{ metadata.base }}">
+  <channel>
+    <title>{{ metadata.title }}</title>
+    <link>{{ metadata.base }}</link>
+    <description>{{ metadata.subtitle }}</description>
+    <language>{{ metadata.language }}</language>
+    {% for post in collections.post reversed %}
+    {% assign absolutePostUrl = post.url | absoluteUrl: metadata.base %}
+    <item>
+        <pubDate>{{ post.date | dateToRfc822 }}</pubDate>
+        <title>{{ post.data.primaryTitle }}</title>
+        <description>{{ post.data.metaDescription | renderTransforms: post.data.page, metadata.base }}</description>
+        <link>{{ absolutePostUrl }}</link>
+        <dc:creator>{{ metadata.author.name }}</dc:creator>
+        <guid isPermaLink="true">{{ absolutePostUrl }}</guid>
+    </item>
+    {% endfor -%}
+  </channel>
+</rss>
