@@ -1,6 +1,6 @@
 ---
 layout: layouts/blog.liquid
-seoTitle: Parenting isn’t a KPI - Ryan Young UX Designer in Des Moines, Iowa
+seoTitle: Parenting isn’t a KPI
 metaDescription: Parenting reminds us that progress often comes from invisible work, and why metrics don’t tell the whole story.
 primaryTitle: Parenting isn’t a KPI. Neither is good design.
 date: 2025-09-29
