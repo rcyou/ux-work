@@ -2,7 +2,7 @@
 layout: layouts/blog.liquid
 seoTitle: Giving kudos shouldn't be so hard
 metaDescription: Trying to thank a great Starbucks team reveals how broken customer feedback systems can be.
-primaryTitle: Giving kudos shouldn't be so hard.
+primaryTitle: Giving kudos shouldn't be so hard
 ogImagePath: '/images/blog/starbucks-feedback-og.jpg'
 date: 2025-10-06
 volume: 2
