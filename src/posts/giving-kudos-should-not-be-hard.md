@@ -14,6 +14,11 @@ tags: post
 
 # {{ primaryTitle }}
 
+<figure class="large spacing-top">
+    <img class="border" src="{{'/images/blog/starbucks-before-you-contact-us.jpg' | url }}" alt="Self-service help desk modal on Starbucks’ Contact Us page with the title “Before you contact us” and a text field asking the user to describe what they need help with." >
+    <figcaption class="caption small-text-16 mono">Self-service help desk modal on Starbucks’ Contact Us page.</figcaption>
+</figure>
+
 If feedback is a gift then why does it seem like companies don’t want to hear it?
 
 The people who work at my nearest Starbucks make it a destination. I stopped in last week to hang out for a few hours and work on some writing.
@@ -22,11 +27,17 @@ After soaking in the friendly vibes and sitting in the cheerful buzz while the s
 
 “Corporate needs to know how nice it is to be here,” I thought.
 
-Opening a new tab in my browser, I searched for the store page, thinking there would be a place to leave feedback. Nope.
+Opening a new tab in my browser, I searched for the store page, thinking there would be a place to leave feedback.
 
-Next, a more direct search, “starbucks leave feedback,” took me to the Contact Us page. Nope.
+Nope.
 
-I looked at the sticker on my cup thinking there was a URL or QR code. Nope.
+Next, a more direct search, “starbucks leave feedback,” took me to the Contact Us page.
+
+Nope.
+
+I looked at the sticker on my cup thinking there was a URL or QR code.
+
+Nope.
 
 Eventually I stumbled upon the Customer Service site and somehow found a FAQ titled “How can I comment or give feedback about an experience I had in a Starbucks store?”
 
