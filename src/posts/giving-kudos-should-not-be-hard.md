@@ -16,7 +16,7 @@ tags: post
 
 <figure class="large spacing-top">
     <img class="border" src="{{'/images/blog/starbucks-before-you-contact-us.jpg' | url }}" alt="Self-service help desk modal on Starbucks’ Contact Us page with the title “Before you contact us” and a text field asking the user to describe what they need help with." >
-    <figcaption class="caption small-text-16 mono">Self-service help desk modal on Starbucks’ Contact Us page.</figcaption>
+    <figcaption class="caption small-text-14 mono">Self-service help desk modal on Starbucks’ Contact Us page.</figcaption>
 </figure>
 
 If feedback is a gift then why does it seem like companies don’t want to hear it?
