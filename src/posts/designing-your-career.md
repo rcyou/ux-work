@@ -1,8 +1,8 @@
 ---
 layout: layouts/blog.liquid
-seoTitle: Designing Your Career
+seoTitle: Designing your career
 metaDescription: Why intentional career planning and self-directed growth matter more than annual reviews.
-primaryTitle: Designing Your Career
+primaryTitle: Designing your career
 date: 2025-10-26
 volume: 2
 issue: 5

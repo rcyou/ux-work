@@ -1,8 +1,8 @@
 ---
 layout: layouts/blog.liquid
-seoTitle: Dishwasher System Status
+seoTitle: Dishwasher system status
 metaDescription: Sleek design loses its luster when users can’t see what’s happening.
-primaryTitle: The Office Dishwasher and Visibility of System Status
+primaryTitle: The office dishwasher and visibility of system status
 date: 2025-10-19
 volume: 2
 issue: 4

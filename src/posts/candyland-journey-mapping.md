@@ -1,6 +1,6 @@
 ---
 layout: layouts/blog.liquid
-seoTitle: Candyland Journey Mapping
+seoTitle: Candyland journey mapping
 metaDescription: Taking cues from a child’s board to turn messy and unpredictable user journeys into clear, shareable pictures of real-world complexity.
 primaryTitle: Candyland journey mapping
 ogImagePath: '/images/blog/og-candyland-journey.jpg'

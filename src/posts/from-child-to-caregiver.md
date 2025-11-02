@@ -1,8 +1,8 @@
 ---
 layout: layouts/blog.liquid
-seoTitle: From Child to Caregiver
+seoTitle: From child to caregiver
 metaDescription: Exploring the realities of caring for an aging parent and the moment roles reverse in ways no one prepares you for.
-primaryTitle: From Child to Caregiver
+primaryTitle: From child to caregiver
 date: 2025-11-02
 volume: 2
 issue: 6
@@ -29,7 +29,8 @@ I bought one myself to keep in her room, knowing the staff had so much going on 
 
 Admittedly, helping my mom use the bathroom was a bit awkward. But it also felt ordinary and enormous — something you don’t prepare for, but somehow you know is coming.
 
-She passed a few months later. But it's only now that I have kids, I recognize that caring for my mom didn’t feel as natural as caring for children.
+She passed a few months later. But it's only now that I have kids,
+ I recognize that caring for my mom didn’t feel as natural as caring for children.
 
 But there wasn’t time to overthink it. It wasn’t a moment of fearlessness or tragedy – just necessary.
 
