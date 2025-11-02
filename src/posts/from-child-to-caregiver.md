@@ -33,4 +33,4 @@ Now that I have kids, I recognize that caring for my mom didn’t feel as natura
 
 But there wasn’t time to overthink it. It wasn’t a moment of fearlessness or tragedy – just necessary.
 
-*FYI: November is National Family Caregivers Month. If you know someone caring for a sibling, friend, or aging parent, know that small gestures can make a difference.
+*FYI: November is National Family Caregivers Month. If you know someone caring for a sibling, friend, or aging parent, know that small gestures can make a difference.*
