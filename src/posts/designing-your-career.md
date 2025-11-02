@@ -1,7 +1,7 @@
 ---
 layout: layouts/blog.liquid
 seoTitle: Designing Your Career
-metaDescription: Are you in control of your professional development? Why intentional career planning and self-directed growth matter more than annual reviews.
+metaDescription: Why intentional career planning and self-directed growth matter more than annual reviews.
 primaryTitle: Designing Your Career
 date: 2025-10-26
 volume: 2
