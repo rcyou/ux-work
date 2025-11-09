@@ -1,0 +1,42 @@
+---
+layout: layouts/blog.liquid
+seoTitle: UX identity crisis
+metaDescription: Calling UX by other names isn't strengthening our field. It weakens shared understanding of the value we bring to every organization.
+primaryTitle: PX? CX? UX? HCD? IDGAF!
+date: 2025-11-09
+volume: 2
+issue: 7
+tags: post
+---
+
+<span class="small-text-16 eyebrow">Week Notes: Vol. {{ volume }} &ndash; &numero; {{ issue }}</span>
+
+# {{ primaryTitle }}
+
+The UX community needs to worry less about what we call ourselves & more about adapting to the business ecosystem they're operating in.
+
+First it was (HCI) Human-Computer Interaction. Then UX followed soon after.
+
+Now there seems to be an attempt to broaden out to infinity: (CX) Customer Experience. (PX) Product Experience. (HX) Human Experience.
+
+Stop.
+
+Continuously redefining what we do is the opposite of what we say we aspire to accomplish: creating clarity, consistency, and trust in the experiences we create.
+
+By coming up with new terms, roles, and jargon, we're making our benefit less clear to the people we need to be working with daily. Our peers in tech are our customers.
+
+How did we get here? At one end, we complain about not having enough influence.
+
+On the other, we complain that today's practitioners are expected to be skilled in design, research, project management, content strategy, have a PhD in behavioral psychology, and moonlight as a front-end developer – all while getting a MBA.
+
+Yes, there is a lot to know in UX. AI tools are raising the barrier to UX entry.  
+
+But UX principles aren't going away. They're stuck in an unnecessary turf battle being fought as companies modernize. AI is only making this messier.
+
+It's up to us to grow and nurture UX wherever we are. Everyone can possess and develop various skills. Anyone can play certain roles based on those skills.
+
+UX is a team sport – more akin to football where overall success depends on each of the 11 offensive or defensive players executing flawlessly for 10 seconds over and over again, rather than baseball where a win can suddenly hinge on one person’s performance.
+
+Accept that UX looks & functions differently at every organization. We place certain companies on a pedestal, yet just under their shiny surface there is a disjointed, garbage experience – especially if you know what to look for.
+
+What we do is what matters. Not what we call it.
