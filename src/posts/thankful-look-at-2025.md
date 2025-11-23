@@ -1,0 +1,32 @@
+---
+layout: layouts/blog.liquid
+seoTitle: A thankful look at 2025
+metaDescription: What I’m thankful for about 2025 is how family, growth, and meaningful connections made the year feel steady, memorable, and full of gratitude.
+primaryTitle: A thankful look at 2025
+date: 2025-11-23
+volume: 2
+issue: 9
+tags: post
+---
+
+<span class="small-text-16 eyebrow">Week Notes: Vol. {{ volume }} &ndash; &numero; {{ issue }}</span>
+
+# {{ primaryTitle }}
+
+First and foremost, I’m thankful for my wife, without whom I wouldn’t be who I am or where I am today. She had a hand in a lot of my personal growth this year. Plus, she is a constant reminder that it’s OK to be impulsive – whether that’s in our shopping habits or social lives.
+
+I’m thankful for two healthy little boys who have strong legs for running and jumping and strong bodies for playing, dancing, and wrestling. I’m thankful they are as creative and curious as they are driven and kind.
+
+I’m thankful for my job. Not just thankful that I have one, which many in UX & IT have struggled to find or keep this year. I’m thankful that I’m in a role that provides me freedom and autonomy, allowing me to wear many hats and make use of a variety of skills I’ve developed over my career.
+
+I’m thankful for the people I work with. Their talent and collaborative spirit make great work possible. They also challenge my thinking, broaden my perspective, and bring levity to our office.
+
+I’m thankful to have a leader who is both honest and invested in my personal and professional growth.
+
+I’m thankful for the new people I met this year, from startup founders and design leaders to old friends and new ones. Helping others and asking for help led to me meeting more than 50 new faces.
+
+That mindset also played a key role in my involvement with the Iowa Venture Mentoring Service and the University of Iowa Pro Prep program – something I would have never considered just a few years ago.
+
+I’m thankful for a year that, so far, has been stable with few surprises. I know that’s not the case for everyone, and it’s something I appreciate the older I get.
+
+What are you thankful for in 2025?
