@@ -9,18 +9,19 @@
 	flex-direction: column;
 	gap: 2rem; 
 
-	@media only screen and (min-width: $mq_medium) {
-		flex-direction: row;
-		justify-content: space-between;
+	
+	#home & {
+		@media only screen and (min-width: $mq_medium) {
+			flex-direction: row;
+			justify-content: space-between;
+
+			li { flex: 1 1 calc(50% - 1rem); }
+		}
 	}
 
 	li {
 		margin-bottom: 0;
 		flex: 1 0 100%;
-
-		@media only screen and (min-width: $mq_medium) {
-			flex: 1 1 calc(50% - 1rem);
-		}
 
 		iframe { display: block; }
 	}
