@@ -111,6 +111,7 @@ hr {
 	height: 1px;
 	border: 0;
 	background-color: $c_ltgrey;
+	margin: 4rem 0;
 }
 
 svg {
@@ -232,6 +233,7 @@ ul, ol {
 
 	li {
 		margin-bottom: 3.2rem;
+		break-inside: avoid;
 
 		&:last-child { margin-bottom: 0; }
 	}
