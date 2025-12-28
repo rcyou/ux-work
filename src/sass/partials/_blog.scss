@@ -54,8 +54,19 @@
 			}
 		}
 	}
+
+	ul ul {
+		margin-top: 0.8rem;
+	}
 }
 
-h2 + h3 {
+h2 + h3,
+p + h3 {
 	margin-top: 2rem;
+}
+
+//need to refactor and make a column list class
+#top + ul ul {
+	font-size: 1.6rem;
+	margin: 0.8rem 0;
 }
