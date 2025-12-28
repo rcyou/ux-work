@@ -13,6 +13,7 @@ date: Last Modified
 	{% for post in collections.post reversed %}
 	<li class="post-list-item">
 		<a href="{{post.url}}" class="post-card">
+			<span class="post-bib small-text-16 eyebrow">Week Notes: Vol. {{ post.data.volume }} &ndash; &numero; {{ post.data.issue }}</span>
 			<span class="post-date small-text-14 mono eyebrow">Published: {{ post.date | utcDate: 'MMMM Do, YYYY' }}</span>
     		<h2 class="post-title">{{ post.data.primaryTitle }}</h2>
     		<span class="post-description">{{ post.data.metaDescription }}</span>
