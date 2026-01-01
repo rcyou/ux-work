@@ -17,10 +17,15 @@
 
   <script src={{ "/js/main.js" }}></script>
   <title>{{ seoTitle }} | {{ masthead }}</title>
+  <meta property="og:site_name" content="{{ masthead }}">
   <meta property="og:title" content="{{ seoTitle }}"/>
   <meta name="description" content="{{ metaDescription }}">
   <meta property="og:description" content="{{ metaDescription }}">
   <meta property="og:url" content="{{ rootURL }}{{ page.url }}" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="{{ rootURL }}{{ ogImagePath }}">  
+  <meta property="og:type" content="website"/>
+  <meta property="og:image" content="{{ rootURL }}{{ ogImagePath }}">
+  <meta property="og:locale" content="en_US"/>
+
+  <meta property="og:updated_time" content="{{ page.date | dateToRfc822 }}">
+
 </head>
