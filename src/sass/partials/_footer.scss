@@ -130,6 +130,36 @@ footer {
 	}
 }
 
+#rss {
+	.symbol {
+		stroke: none;
+		fill: $c_white;
+	}
+
+	rect {
+		fill: $c_black;
+
+		a:focus-visible &,
+		a:hover & {
+			fill: #fe6500;
+		}
+	}
+}
+
+#medium {
+	path { fill: $c_white; }
+
+	rect {
+		fill: $c_black;
+
+		a:focus-visible &,
+		a:hover & {
+			fill: $c_grey;
+		}
+	}
+}
+
+
 
 #copyright {
 	color: $c_grey;
