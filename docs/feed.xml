@@ -13,6 +13,16 @@
     
     
     <item>
+        <pubDate>Sat, 14 Feb 2026 18:00:00 CST</pubDate>
+        <title>Build products like an artist through thin slicing</title>
+        <description>Thinking like an artist can improve sproduct development through thin slicing, rapid testing, and early validation.</description>
+        <link>https://ux.ryancyoung.com/posts/build-products-like-an-artist/</link>
+        <dc:creator>Ryan Young</dc:creator>
+        <guid isPermaLink="true">https://ux.ryancyoung.com/posts/build-products-like-an-artist/</guid>
+    </item>
+    
+    
+    <item>
         <pubDate>Sat, 07 Feb 2026 18:00:00 CST</pubDate>
         <title>Death, taxes, and ads</title>
         <description>From newspapers to generative AI, every platform repeats the same cycle: free access, rapid growth, then ads.</description>
@@ -35,7 +45,7 @@
     <item>
         <pubDate>Sat, 24 Jan 2026 18:00:00 CST</pubDate>
         <title>Advice: Refining your UX portfolio and case studies</title>
-        <description>Why most UX portfolios miss the point—and how to fix yours with clearer storytelling, better scannability, and stronger case studies.</description>
+        <description>Why most UX portfolios miss the point, and how to fix yours with clearer storytelling, better scannability, and stronger case studies.</description>
         <link>https://ux.ryancyoung.com/posts/refining-ux-portfolios-and-case-studies/</link>
         <dc:creator>Ryan Young</dc:creator>
         <guid isPermaLink="true">https://ux.ryancyoung.com/posts/refining-ux-portfolios-and-case-studies/</guid>
@@ -185,7 +195,7 @@
     <item>
         <pubDate>Sat, 11 Oct 2025 19:00:00 CDT</pubDate>
         <title>Candyland journey mapping</title>
-        <description>Taking cues from a child’s board to turn messy and unpredictable user journeys into clear, shareable pictures of real-world complexity.</description>
+        <description>Taking cues from a child’s board game to turn messy and unpredictable user journeys into clear, shareable pictures of real-world complexity.</description>
         <link>https://ux.ryancyoung.com/posts/candyland-journey-mapping/</link>
         <dc:creator>Ryan Young</dc:creator>
         <guid isPermaLink="true">https://ux.ryancyoung.com/posts/candyland-journey-mapping/</guid>
