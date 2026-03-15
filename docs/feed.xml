@@ -13,6 +13,16 @@
     
     
     <item>
+        <pubDate>Sat, 14 Mar 2026 19:00:00 CDT</pubDate>
+        <title>The UX Jolly Roger</title>
+        <description>The origin story of the UX Jolly Roger, a symbol for frustrated UX practitioners who refuse to just polish screens and instead fight to solve real problems.</description>
+        <link>https://ux.ryancyoung.com/posts/ux-jolly-roger/</link>
+        <dc:creator>Ryan Young</dc:creator>
+        <guid isPermaLink="true">https://ux.ryancyoung.com/posts/ux-jolly-roger/</guid>
+    </item>
+    
+    
+    <item>
         <pubDate>Sat, 07 Mar 2026 18:00:00 CST</pubDate>
         <title>Lessons learned organizing a local tech event</title>
         <description>Organizing a local tech event is harder than it looks. Here’s what I ran into while planning World IA Day in Des Moines.</description>
