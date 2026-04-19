@@ -9,9 +9,9 @@ date: Last Modified
 
 <h1>{{ primaryTitle }}</h1>
 <p class="summary big-text-20">Occasional updates about what I am working on, reading, and thinking about. All thoughts and opinions expressed are my own — not of my employer or anyone else I work with.</p>
-<ul id="post-list">
+<ul id="post-list" class="js-reveal">
 	{% for post in collections.post reversed %}
-	<li class="post-list-item">
+	<li class="post-list-item reveal-child">
 		<a href="{{post.url}}" class="post-card">
 			<span class="post-bib small-text-16 eyebrow">Week Notes: Vol. {{ post.data.volume }} &ndash; &numero; {{ post.data.issue }}</span>
     		<h2 class="post-title">{{ post.data.primaryTitle }}</h2>
