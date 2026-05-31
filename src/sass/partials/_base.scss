@@ -376,8 +376,8 @@ main *[data-visible="true"] {
 
 @keyframes slide-from-bottom {
   0% {
-    -webkit-transform: translateY(9vh);
-            transform: translateY(9vh);
+    -webkit-transform: translateY(5rem);
+            transform: translateY(5rem);
     opacity: 0; }
   100% {
     -webkit-transform: translateY(0);
