@@ -654,7 +654,7 @@ header {
     margin-top: 2.4rem;
     margin-bottom: 2.4rem;
     max-width: 100rem;
-    gap: 2rem;
+    gap: 1rem;
   }
 }
 
@@ -662,13 +662,13 @@ aside {
   display: flex;
   align-items: flex-start;
   gap: 1.6rem;
-  flex: 0 1 100%;
-  width: 100%;
+  flex: 0 0 auto;
+  width: auto;
   margin-top: 2.4rem;
 }
 @media only screen and (min-width: 600px) {
   aside {
-    gap: 2rem;
+    gap: 1rem;
     margin-top: 0;
   }
 }

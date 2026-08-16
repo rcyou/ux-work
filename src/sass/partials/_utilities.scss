@@ -69,10 +69,10 @@
 	max-width: 100%;
 	
 	@media only screen and (min-width: $mq_medium) {
-		max-width: 66rem;
+		max-width: $mq_medium;
 		width: 100%;
 
-		#home & { max-width: 100rem; }
+		#home & { max-width: $mq_large; }
 	}
 }
 
@@ -163,8 +163,6 @@
 	}
 
 #home #lede {
-	max-width: 100rem;
-	width: auto;
 
 	h1 {
 		font-weight: $f_bold;
